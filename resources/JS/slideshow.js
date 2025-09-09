@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     // List of images
     const images = [
-        "../techondemandWebsite/resources/images/smart-devices.jpg",
-        "../techondemandWebsite/resources/images/smart-thermostat.jpg",
-        "../techondemandWebsite/resources/images/home-setup.jpg",
-        "../techondemandWebsite/resources/images/laptop.jpg",
-        "../techondemandWebsite/resources/images/solar-field.jpg"
+        "resources/images/smart-devices.jpg",
+        "resources/images/smart-thermostat.jpg",
+        "resources/images/home-setup.jpg",
+        "resources/images/laptop.jpg",
+        "resources/images/solar-field.jpg"
     ];
 
     // Preload images to prevent flash
