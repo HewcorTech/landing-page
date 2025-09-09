@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     // List of images
     const images = [
-        "./images/smart-devices.jpg",
-        "./images/smart-thermostat.jpg",
-        "./images/home-setup.jpg",
-        "./images/laptop.jpg",
+        "./resources/images/smart-devices.jpg",
+        "./resources/images/smart-thermostat.jpg",
+        "./resources/images/home-setup.jpg",
+        "./resources/images/laptop.jpg",
         "./resources/images/solar-field.jpg"
     ];
 
