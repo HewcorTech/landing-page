@@ -1,12 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
     // List of images
-    const images = [       
-        "./resources/images/smart-thermostat.jpg",
-        "./resources/images/home-setup.jpg",
-        "./resources/images/laptop.jpg",
-        "./resources/images/solar-field.jpg",
-         "./resources/images/smart-devices.jpg"
-    ];
+    const basePath = "resources/images/";
+const images = [
+    "smart-devices.jpg",
+    "smart-thermostat.jpg",
+    "home-setup.jpg",
+    "laptop.jpg",
+    "solar-field.jpg"
+].map(img => basePath + img);
 
     // Preload images to prevent flash
     const preloadedImages = [];
