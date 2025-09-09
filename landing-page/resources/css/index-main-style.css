@@ -1,0 +1,189 @@
+ /* Index.html body styling */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: break-word;
+    gap: 5vw;
+    margin: 1vh auto 1vh auto;
+    z-index: 1;
+    max-width: 80vw;
+    max-height: 64vh;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+
+}
+
+ /* main page image - to be replaced with a slideshow*/
+
+ .slideshow {
+    position: relative;
+    width: 45vw;
+    height: 45vh;
+    border-radius: 25px;
+    overflow: hidden;
+ }
+
+ .slideshow img{
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit:cover; /* instead of cover */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 15px;
+  background-color: black; /* optional, shows behind smaller images */
+ }
+ .slideshow img.active {
+  opacity: 1;
+}
+
+ /*Hero text section - beside image*/
+ .text-content-hero {
+    display: grid;
+    justify-items: start;
+    align-items: start;
+    overflow: auto;
+   
+    background-color: rgba(80, 153, 236, 0.2);
+    border-radius: 25px;
+    height: 45vh;
+    width: 45vw;
+    z-index: 1;
+ }
+
+ .text-content-hero h1 {
+    padding-bottom: 10px;
+    margin-top: 1.2vh;
+    
+    text-align: center;
+ }
+
+ .text-content-hero h2 {
+    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+ }
+
+ .text-content-hero h3 {
+        margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ }
+
+ .scope-list {
+    justify-self: start;
+ }
+
+ .scope-list ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 3.5vw;
+    margin-bottom: 2vh;
+ }
+
+ .scope-list ul li {
+    position: relative;
+    padding-left:3.5vw;
+    line-height: 1.2;
+}
+
+.scope-list ul li:nth-of-type(1)::before {
+    content: '💡';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.scope-list ul li:nth-of-type(2)::before {
+    content: "💻";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    text-align: center;
+}
+
+
+.scope-list ul li:nth-of-type(3)::before {
+    content: '🔌';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.scope-list ul li:nth-of-type(4)::before {
+    content: '📱';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    text-align: center;
+}
+
+
+ /* blog section - below image and Hero statement*/
+.blog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    width: 80vw;
+    height: auto;;
+    padding: 0px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7)60%, rgba(220, 246, 220, 0.7) 85%, rgba(210, 247, 210, 0.7) 98%), url('../images/solar-field.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    padding-bottom: 3vh;
+    margin-bottom: 5vh;
+}
+
+.blog .blog-title {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+
+.blog .blog-main {
+    display: flex;
+    justify-items: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.blog-main h1 {
+    margin-bottom: 2vh;
+ }
+
+ .blog-main h2 {
+    margin-bottom: 2vh;
+ }
+
+ .blog-main p {
+    margin-bottom: 2vh;
+ }
+
+ .blog-main ul {
+    margin-bottom: 2vh;;
+ }
+
+ .blog-main ul>li {
+    margin-bottom: 2vh;
+ }
+
+.footer-right img {
+   height: auto;
+}

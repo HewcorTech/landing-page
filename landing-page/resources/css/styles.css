@@ -1,0 +1,217 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+
+/* Vertical center line */
+body::before {
+   content: "";
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 50%;
+   width: 1px;
+   background: red;
+   z-index: 9999;
+   pointer-events: none;
+   /* don't block clicks */
+}
+
+/* Horizontal center line */
+body::after {
+   content: "";
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 50%;
+   height: 1px;
+   background: red;
+   z-index: 9999;
+   pointer-events: none;
+}
+
+body {
+   box-sizing: border-box;
+   /*background-color: black;*/
+   overflow-x: hidden;
+   margin: 15vh 0 5vh 0;
+   padding: 10px;
+   bottom: 10;
+   background-image: linear-gradient(to right, white 30%, rgb(220, 246, 220) 55%, rgb(210, 247, 210) 98%);
+   background-size: 100% 100%;
+}
+
+/* header styling*/
+.header {
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   /* space logo, line, menu evenly */
+   height: 20vh;
+   /* fixed height */
+   padding: 0;
+   /* remove extra padding */
+   /* remove margin-top */
+   box-sizing: border-box;
+   padding-top: 1vh;
+   overflow: hidden;
+   /* prevent overflow */
+   background-image: linear-gradient(to right, white 30%, rgb(220, 246, 220) 55%, rgb(210, 247, 210) 98%);
+   z-index: 100;
+
+}
+
+.header .logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header .logo img {
+   height: 10vh;
+   /* scales with header */
+   margin-bottom: 2%;
+}
+
+.header-break {
+   margin-top: 1vh;
+   width: 70vw;
+      margin: 1vh auto;
+}
+
+.header-menu {
+   display: flex;
+   gap: 8vw;
+   justify-content: center;
+   align-items: center;
+   list-style-type: none;
+   padding: 0;
+   margin: 1vh 0 1vh 2vh;
+
+   
+}
+
+/* Footer styling */
+
+.techondemand-footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   z-index: 100;
+   background: none;
+   height: 7vh;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   background-image: linear-gradient(to right, white 30%, rgb(220, 246, 220) 55%, rgb(210, 247, 210) 98%);
+   box-sizing: border-box;
+}
+
+.footer-left {
+   display: flex;
+   align-items: center;
+   gap: 1vw;
+   justify-content: space-between;
+   margin-left: 2vw;
+   max-width: 40%;
+}
+
+.footer-center {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 20%;
+}
+
+.footer-right {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 2vw;
+   gap: 1vw;
+   max-width: 40%;
+}
+
+
+
+#footer-logo {
+   height: 4vh;
+}
+
+#facebook-logo{
+   height: 4vh;
+}
+
+#x-logo {
+   height: 4vh;
+}
+
+#insta-logo {
+   height: 4vh;
+}
+/* button formatting */
+#request-btn {
+    background-color: #75BF44;
+    color: white;
+    border: none;
+    height: 4.5vh;           /* Button height relative to footer (footer is 7vh) */
+    min-width: 10vh;         /* Width also relative to viewport height */
+    font-size: 2vh;          /* Font scales with footer */
+    padding: 0 2vh;          /* Horizontal padding in vh */
+    border-radius: 1vh;      /* Rounded corners scale with footer */
+    box-shadow: 0.5vh 0.5vh 1.5vh 0.3vh rgba(0, 160, 0, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#request-btn:hover {
+    background-color: rgb(132, 179, 241);
+    transform: scale(1.1);
+}
+
+#request-btn:active {
+    transform: scale(0.95);
+}
+
+
+/* form submission popup */
+.response-modal {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.response-content {
+  background-color: #8bc2a5;
+  margin: 15% auto;
+  padding: 20px;
+  width: 300px;
+  max-width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  color: #003333;
+  font-weight: bold;
+}
+
+.close-btn {
+  float: right;
+  cursor: pointer;
+  color: red;
+  font-size: 1.2rem;
+}
