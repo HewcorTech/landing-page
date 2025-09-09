@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     // List of images
-    const images = [
-        "./resources/images/smart-devices.jpg",
+    const images = [       
         "./resources/images/smart-thermostat.jpg",
         "./resources/images/home-setup.jpg",
         "./resources/images/laptop.jpg",
-        "./resources/images/solar-field.jpg"
+        "./resources/images/solar-field.jpg",
+         "./resources/images/smart-devices.jpg"
     ];
 
     // Preload images to prevent flash
