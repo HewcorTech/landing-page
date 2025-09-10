@@ -36,7 +36,6 @@ body {
    /*background-color: black;*/
    overflow-x: hidden;
    margin: 15vh 0 5vh 0;
-   padding: 10px;
    bottom: 10;
    background-image: linear-gradient(to right, white 30%, rgb(220, 246, 220) 55%, rgb(210, 247, 210) 98%);
    background-size: 100% 100%;
