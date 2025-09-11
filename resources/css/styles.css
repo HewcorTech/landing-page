@@ -3,8 +3,7 @@
    margin: 0;
 }
 
-
-/* Vertical center line */
+/* center crosshairs
 body::before {
    content: "";
    position: fixed;
@@ -15,10 +14,8 @@ body::before {
    background: red;
    z-index: 9999;
    pointer-events: none;
-   /* don't block clicks */
 }
 
-/* Horizontal center line */
 body::after {
    content: "";
    position: fixed;
@@ -30,6 +27,7 @@ body::after {
    z-index: 9999;
    pointer-events: none;
 }
+*/
 
 body {
    box-sizing: border-box;

@@ -6,15 +6,13 @@
     align-items: center;
     overflow-wrap: break-word;
     gap: 5vw;
-    margin: 1vh auto 1vh auto;
+    margin: 10vh auto 5vh auto;
+    padding-top: 10vh;
     z-index: 1;
     max-width: 80vw;
     max-height: 64vh;
     width: 100vw;
     height: auto;
-    margin-bottom: 5vh;
-    margin-top: 10vh;
-
 }
 
  /* main page image - to be replaced with a slideshow*/
@@ -76,162 +74,63 @@
 
 /* services section */
 .services-title{
+   box-sizing: border-box;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
     width: 100%;
     margin: 5vh auto;
-    padding: 5vh 0;
-   background-color: slategray;
-    border-radius: 15px;
- }
+}
 
-  .services-title h1{ 
+.services-title h1{ 
    align-items: center;
    text-decoration: underline;
-
+   padding: 5vh 0 5vh 0;
  }
 
  .network, .climate, .security, .entertainment, .smrtlight {
     display: flex;
   flex-direction: column;   /* stack subsections vertically */
   width:100%;
-  margin: 0 auto 3vh auto;  /* center and add spacing */
+  margin: 0 auto 0 auto;  /* center and add spacing */
  }
 
  .topic-item {
    display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   gap: 1.5vw;
-   margin-top: 3vh;
- }
-
- .topic-left {
-  flex: 0 0 50%;            /* fixed width column */
-  display: flex;
-  flex-direction: column;   /* stack header + image */
-  align-items: center;      /* center image + text */
-  justify-content: center;
-  border-radius: 15px;
-  padding: 1vh 0 1vh 0;
-  text-align: center;
-
-}
-
-.topic-left h2 {
-   margin: 2vh 0 1vh 0;
-}
-
-.topic-left img {
-   max-width: 100%;
-   height: auto;
-}
-.topic-right img {
-   max-width: 100%;
-   height: auto;
-}
-.topic-right {
-  flex: 0 0 50%;            /* fixed width column */
-  display: flex;
-  flex-direction: column;   /* stack header + image */
-  align-items: center;      /* center image + text */
-  justify-content: center;
-  border-radius: 15px;
-  padding: 1vh 0 1vh 0;
-  text-align: center;
-}
-
- /*
-.topics{
-   display:flex;
-flex-direction: column;
-gap: 2vh;
-margin: 1.5vh 2vw 1.5vh 2vw;
-width: 80vw;
-height: auto;
-}
-
-.topic-item {
-   display: flex;
    justify-content: center;
    align-items: center;
-   gap: 1.5vw;
-   width: 100%;
+   flex-wrap: wrap;
+      background-color: rgba(112, 128, 144, .3);
+ }
+
+ .topic-left, .topic-right {
+  flex: 0 0 50%;            /* fixed width column */
+  display: flex;
+  flex-direction: column;   /* stack header + image */
+  align-items: center;      /* center image + text */
+  justify-content: center;
+  text-align: center;   
 }
 
-.topic-item h2 {
-   text-align: right;
-   flex: 0 0 30%;
-   margin: 0;
+.topic-left h2, .topic-right h2 {
+   flex: 0 0 80%;
+   margin: 1vh auto;
+   padding-bottom: 10vh;
+   overflow-wrap: break-word;
 }
-.topic-item h3 {
+
+.topic-left p, .topic-right p {
+   margin: 1vh 3vw;
    text-align: center;
-   flex: 0 0 5%;
+   overflow-wrap: break-word;
 }
 
-.topic-item p{
-   text-align: left;
-   flex: 1;
-   margin: 0;
+.topic-left img, .topic-right img {
+   max-width: 100%;
+   height: auto;
+   object-fit: cover;
 }
-   */
- /* scope is no longer required - to be removed
- .scope-list {
-    justify-self: start;
- }
-
- .scope-list ul {
-    list-style-type: none;
-    text-align: left;
-    margin-left: 3.5vw;
-    margin-bottom: 2vh;
- }
-
- .scope-list ul li {
-    position: relative;
-    padding-left:3.5vw;
-    line-height: 1.2;
-}
-
-.scope-list ul li:nth-of-type(1)::before {
-    content: '💡';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    text-align: center;
-}
-
-.scope-list ul li:nth-of-type(2)::before {
-    content: "💻";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    text-align: center;
-}
-
-
-.scope-list ul li:nth-of-type(3)::before {
-    content: '🔌';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    text-align: center;
-}
-
-.scope-list ul li:nth-of-type(4)::before {
-    content: '📱';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    text-align: center;
-}
-*/
 
  /* blog section - below image and Hero statement*/
 .blog {
