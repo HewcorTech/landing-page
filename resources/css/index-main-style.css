@@ -67,9 +67,13 @@
    align-items: center;
     width: 100%;
     margin: 1rem auto;
+    
 }
 
-/* Services section */
+.services-bubble {
+   background-color: rgba(210, 247, 210, .5);
+}
+
 .services-title h1{ 
    align-items: center;
    padding: 0 0 2vh 0;
@@ -117,7 +121,5 @@
    object-fit: cover;
 }
 
+
  
-.footer-right img {
-   height: auto;
-}

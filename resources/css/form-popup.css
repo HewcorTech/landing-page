@@ -7,13 +7,13 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .modal-content {
   display: flex;
   flex-direction: column;
-  background-color: #8bc2a5;
+  background-color: rgb(210, 247, 210);;
   margin: 10% auto;
   padding: 20px;
   border-radius: 8px;
@@ -99,7 +99,7 @@ label[for='description'] {
   padding: 8px;
   border: none;
   border-radius: 8px;
-  background-color: lightcyan;
+  background-color: white;
   font-family: inherit;
   box-sizing: border-box;
   /* ensures padding doesn’t mess width */
@@ -116,7 +116,7 @@ label[for='description'] {
   padding: 8px;
   border: none;
   border-radius: 8px;
-  background-color: lightcyan;
+  background-color: white;
   font-family: inherit;
   box-sizing: border-box;
   /* ensures padding doesn’t mess width */
@@ -143,4 +143,33 @@ label[for='description'] {
   padding-top: 15px;
   padding-bottom: 5px;
   font-weight: bold;
+}
+
+.modal-content input[type="radio"]{
+  
+  accent-color: rgb(189, 231, 21);
+}
+
+.modal-content button[type="submit"] {
+background-color: #75BF44;
+    color: white;
+    border: none;
+    height: 4.5vh;           /* Button height relative to footer (footer is 7vh) */
+    min-width: 10vh;         /* Width also relative to viewport height */
+    font-size: 2vh;          /* Font scales with footer */
+    padding: .5vh .5vh;          /* Horizontal padding in vh */
+    border-radius: 5px;      /* Rounded corners scale with footer */
+    margin: 1vh auto 0 auto;
+    box-shadow: 0.5vh 0.5vh 1.5vh 0.3vh rgba(0, 160, 0, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content input[type="radio"]:active {
+ 
+  box-shadow: 0 0 6px 2px rgb(46, 125, 50, 0.6);
+  background: 0 0 6px 2px rgb(46, 125, 50, 0.6); 
+  border-radius: 50%;  
 }

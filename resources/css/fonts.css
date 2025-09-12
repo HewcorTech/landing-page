@@ -1,18 +1,18 @@
  .header-menu li a {
      text-decoration: none;
-     color: rgb(2, 94, 14);
-     font-family: 'Roboto', sans-serif;
+     color: #4B4B4B;
+     font-family: 'Inter', sans-serif;
      font-size: clamp( .5rem, 2vh, 3rem);
  }
 
  .text-content-hero h1 {
-     font-family: "Orbitron", sans-serif;
+    font-family: 'Inter', sans-serif;
      font-size: clamp( 1rem, 4vh, 5rem);
      color: white;
  }
 
  .text-content-hero h2 {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Inter', sans-serif;
      font-size: clamp( .5rem, 2.5vh, 3rem);
      color: white;
  }
@@ -21,39 +21,41 @@
 
  /* footer font */
  .techondemand-footer p {
-     font-size: clamp(.4rem, 0.7vw, 1rem);
-     font-family: 'Montserrat', sans-serif;
-     color: #064420;
+     font-size: clamp(.4rem, 0.5vw, 1rem);
+     font-family: "Space Mono", monospace;
+     color: #4B4B4B;
      font-weight: bold;
  }
 
  .techondemand-footer .request-quote button {
      color: white;
-     font-family: 'Roboto', sans-serif;
+     font-family: 'Inter', sans-serif;
  }
 
 /* bullet of services fonts */
 .services-title h1 {
-         font-family: "Orbitron", sans-serif;
+    color: #4B4B4B;
+         font-family: 'Inter', sans-serif;
         font-size: clamp(1rem, 6vw, 5rem);
+        font-weight: normal
 }
 
 .partnerships h2{
-    font-family: "Orbitron", sans-serif;
+   font-family: 'Inter', sans-serif;
     font-size: clamp(1rem, 4vw, 3rem);
-    color: #064420;
+    color: rgb(51, 51, 51);
     text-align: center;
     margin-bottom: 2vh;
 }
 .topic-left h2, .topic-right h2 {
    font-size: clamp(.8rem, 4vw, 3rem); /* min ~20px, scales, max ~48px */
-     font-family: "Orbitron", sans-serif;
-    color: #064420;
+    font-family: 'Inter', sans-serif;
+    color: #4B4B4B;
 }
 
 .topic-left p, .topic-right p {
     font-size: clamp(.5rem, 2.5vw, 1.5rem); /* min ~16px, scales, max ~24px */
-    color: #064420;
-    font-family: 'Roboto', sans-serif;
+    color: #4B4B4B;
+    font-family: 'Inter', sans-serif;
 }
 

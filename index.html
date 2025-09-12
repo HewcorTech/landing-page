@@ -17,6 +17,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
+  <!-- adding font from google - Space mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- adding font from google - Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
   <title>Welcome to TechOnDemand</title>
 </head>
 
@@ -33,10 +46,34 @@
 
       <nav>
         <ul class="header-menu">
-          <li id="home"><a href='index.html'>HOME</a></li>
-          <li id="services"><a href='services.html'>SERVICES</a></li>
-          <li id="projects"><a href='projects.html'>PROJECTS</a></li>
-          <li id="about-us"><a href='aboutus.html'>ABOUT US</a></li>
+          <li id="home"><a href='index.html'>HOME</a>
+            <ul class="submenu">
+              <li>asfd</li>
+              <li>asdfsa</li>
+              <li>asfddsaf</li>
+            </ul>
+        </li>
+          <li id=" services"><a href='services.html'>SERVICES</a>
+             <ul class="submenu">
+              <li>asfd</li>
+              <li>asdfsa</li>
+              <li>asfddsaf</li>
+            </ul>
+          </li>
+          <li id="projects"><a href='projects.html'>PROJECTS</a>
+             <ul class="submenu">
+              <li>asfd</li>
+              <li>asdfsa</li>
+              <li>asfddsaf</li>
+            </ul>
+          </li>
+          <li id="about-us"><a href='aboutus.html'>ABOUT US</a>
+           <ul class="submenu">
+              <li>asfd</li>
+              <li>asdfsa</li>
+              <li>asfddsaf</li>
+            </ul>
+          </li>
         </ul>
       </nav>
 
@@ -49,7 +86,7 @@
       <div class="main-container">
 
         <div class="slideshow">
-          <video autoplay muted loop id="myVideo">
+          <video id="frontvid" autoplay muted loop id="myVideo">
             <source src="resources/images/HeadVid.mp4" type="video/mp4">
             Your browser does not support HTML5 video.
           </video>
@@ -69,76 +106,77 @@
     <section>
 
       <div class="services-title">
-        <h1>OUR SERVICES</h1>
-
-        <div class="network">
-          <div class="topic-item">
-            <div class="topic-left">
-              <img src="resources/images/server-rack.jpg" alt="server rack">
-            </div>
-            <div class="topic-right">
-              <h2>Network Infrastructure</h2>
-              <p>"Reliable, seamless Wi-Fi from corner to corner. We design and install networks that keep
-                your devices connected wherever you go."
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="smrtlight">
-          <div class="topic-item">
-            <div class="topic-left">
-
-              <h2>Smart Lighting</h2>
-              <p>"Set the perfect mood with a tap or voice command. Configure scenes or automated schedules,
-                lighting that works with your life."
-              </p>
-            </div>
-            <div class="topic-right">
-              <img src="resources/images/Smart-switch.jpg" alt="smart lighting">
+        <h1 id="services">OUR SERVICES</h1>
+        <div class="services-bubble">
+          <div class="network">
+            <div class="topic-item">
+              <div class="topic-left">
+                <img src="resources/images/service-list/server-rack.jpg" alt="server rack">
+              </div>
+              <div class="topic-right">
+                <h2>Network Infrastructure</h2>
+                <p>"Reliable, seamless Wi-Fi from corner to corner. We design and install networks that keep
+                  your devices connected wherever you go."
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="climate">
-          <div class="topic-item">
-            <div class="topic-left">
-              <img src="resources/images/smart-thermo.jpg" alt="climate control">
-            </div>
-            <div class="topic-right">
-              <h2>Climate Control</h2>
-              <p>"Comfort and cost-savings with intelligent thermostats and zoning systems. Keep your home cozy
-                and efficient."
-              </p>
+          <div class="smrtlight">
+            <div class="topic-item">
+              <div class="topic-left">
+
+                <h2>Smart Lighting</h2>
+                <p>"Set the perfect mood with a tap or voice command. Configure scenes or automated schedules,
+                  lighting that works with your life."
+                </p>
+              </div>
+              <div class="topic-right">
+                <img src="resources/images/service-list/Smart-switch.jpg" alt="smart lighting">
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="security">
-          <div class="topic-item">
-            <div class="topic-left">
-              <h2>Security & Access</h2>
-              <p>"Smart locks, cameras, and sensors that give you piece of mind. Control your home's security
-                from anywhere, effortlessly."
-              </p>
-            </div>
-            <div class="topic-right">
-              <img src="resources/images/access-control.jpg" alt="security and access">
-
+          <div class="climate">
+            <div class="topic-item">
+              <div class="topic-left">
+                <img src="resources/images/service-list/smart-thermo.jpg" alt="climate control">
+              </div>
+              <div class="topic-right">
+                <h2>Climate Control</h2>
+                <p>"Comfort and cost-savings with intelligent thermostats and zoning systems. Keep your home cozy
+                  and efficient."
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="entertainment">
-          <div class="topic-item">
-            <div class="topic-left">
-              <img src="resources/images/home-automation.jpg" alt="entertainment and automation">
+          <div class="security">
+            <div class="topic-item">
+              <div class="topic-left">
+                <h2>Security & Access</h2>
+                <p>"Smart locks, cameras, and sensors that give you piece of mind. Control your home's security
+                  from anywhere, effortlessly."
+                </p>
+              </div>
+              <div class="topic-right">
+                <img src="resources/images/service-list/access-control.jpg" alt="security and access">
+
+              </div>
             </div>
-            <div class="topic-right">
-              <h2>Entertainment & Automation</h2>
-              <p>"Lights, blinds, sound, and media working together. A unified system that responds to
-                your command, keeping everything simple and in sync."
-              </p>
+          </div>
+
+          <div class="entertainment">
+            <div class="topic-item">
+              <div class="topic-left">
+                <img src="resources/images/service-list/home-automation.jpg" alt="entertainment and automation">
+              </div>
+              <div class="topic-right">
+                <h2>Entertainment & Automation</h2>
+                <p>"Lights, blinds, sound, and media working together. A unified system that responds to
+                  your command, keeping everything simple and in sync."
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -151,14 +189,15 @@
         <div id="featurable-a84d2d74-ffd8-49df-a88b-9bbd9ff2f862" data-featurable-async></div>
         <script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
       </div>
+      </div>
     </section>
 
     <!-- partnerships and products -->
     <section>
       <div class="partnerships">
-        <h2>Our Products</h2>
+        <h2 id="products">Our Products</h2>
         <ul class="product-logos">
-          <li><img src="" alt="Shaw Logo"></li>
+          <li></li>
           <li></li>
           <li></li>
           <li></li>

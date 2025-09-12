@@ -33,9 +33,9 @@ body {
    box-sizing: border-box;
    /*background-color: black;*/
    overflow-x: hidden;
-   margin: 15vh 0 5vh 0;
+   margin: 17vh 0 5vh 0;
    bottom: 10;
-   background-image: linear-gradient(to right, white 50%, rgb(220, 246, 220) 75%, rgb(210, 247, 210) 98%);
+   background-color: rgb(210, 247, 210);
    background-size: 100% 100%;
 }
 
@@ -50,16 +50,16 @@ body {
    align-items: center;
    justify-content: space-between;
    /* space logo, line, menu evenly */
-   height: 18vh;
+   height: 17vh;
    /* fixed height */
    padding: 0;
    /* remove extra padding */
    /* remove margin-top */
    box-sizing: border-box;
    padding-top: 1vh;
-   overflow: hidden;
+   overflow: visible;
    /* prevent overflow */
-   background-image: linear-gradient(to right, white 50%, rgb(220, 246, 220) 75%, rgb(210, 247, 210) 98%);
+    background-color: rgb(210, 247, 210);
    z-index: 100;
 
 }
@@ -92,6 +92,27 @@ body {
    padding: 0;
    padding-bottom: 2vh;
    margin: 1vh 0 1vh 2vh;
+   overflow: visible !important;
+   position: relative;
+   z-index: 9999;
+ 
+}
+
+.submenu {
+ display: none;
+  position: absolute;
+  top: 100%;       /* directly below parent li */
+  left: 0;
+  background: white;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  list-style: none;
+  z-index: 2000;   /* higher than header & video */
+}
+.header-menu li:hover > .submenu {
+   display: block;
+   
+
 }
 
 /* Footer styling */
@@ -106,7 +127,7 @@ body {
    padding: 0;
    display: flex;
    justify-content: space-between;
-   background-image: linear-gradient(to right, white 50%, rgb(220, 246, 220) 75%, rgb(210, 247, 210) 98%);
+    background-color: rgb(210, 247, 210);
    box-sizing: border-box;
 }
 
@@ -115,8 +136,8 @@ body {
    align-items: center;
    gap: 1vw;
    justify-content: space-between;
-   margin-left: 2vw;
-   max-width: 40%;
+   margin-left: 1vw;
+   max-width: 25%;
 }
 
 .footer-center {
@@ -135,8 +156,6 @@ body {
    gap: 1vw;
    max-width: 40%;
 }
-
-
 
 #footer-logo {
    height: 4vh;
