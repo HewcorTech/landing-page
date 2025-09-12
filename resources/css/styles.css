@@ -35,11 +35,7 @@ body {
    overflow-x: hidden;
    margin: 17vh 0 5vh 0;
    bottom: 10;
-   background-image: url('resources/images/background.jpg');
-   background-attachment: fixed;   /* Makes it stay in place */
-  background-size: cover;         /* Cover the entire screen */
-  background-position: center;    /* Center it */
-  background-repeat: no-repeat;
+
 }
 
 /* header styling*/
@@ -97,7 +93,6 @@ body {
    overflow: visible !important;
    position: relative;
    z-index: 9999;
- 
 }
 
 .submenu {
@@ -108,14 +103,25 @@ body {
   background: white;
   padding: 0.5rem;
   border: 1px solid #ccc;
+  background-color: rgba(47, 79, 79, .8);
+  border-radius: 10px; 
+  padding: 1vh;
   list-style: none;
   z-index: 2000;   /* higher than header & video */
+  border: none;
+outline: none;
+}
+
+.submenu li{
+padding: 5px 0 5px 0;
+
+
 }
 .header-menu li:hover > .submenu {
    display: block;
-   
-
 }
+
+
 
 /* Footer styling */
 .techondemand-footer {
