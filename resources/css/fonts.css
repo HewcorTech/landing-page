@@ -1,33 +1,27 @@
  .header-menu li a {
      text-decoration: none;
      color: rgb(2, 94, 14);
-     font-family: 'Montserrat', sans-serif;
-     font-size: 2.5vh;
+     font-family: 'Roboto', sans-serif;
+     font-size: clamp( .5rem, 2vh, 3rem);
  }
 
  .text-content-hero h1 {
      font-family: "Orbitron", sans-serif;
-     font-size: 5vh;
-     color: #064420;
+     font-size: clamp( 1rem, 4vh, 5rem);
+     color: white;
  }
 
  .text-content-hero h2 {
       font-family: 'Roboto', sans-serif;
-     font-size: 2.5vh;
-     color: #064420;
+     font-size: clamp( .5rem, 2.5vh, 3rem);
+     color: white;
  }
 
- .text-content-hero h3 {
-     font-family: 'Montserrat', sans-serif;
-     font-size: 2vh;
-     font-weight: lighter;
-     color: #064420;
-     text-decoration: underline;
- }
+
 
  /* footer font */
  .techondemand-footer p {
-     font-size: .7vw;
+     font-size: clamp(.4rem, 0.7vw, 1rem);
      font-family: 'Montserrat', sans-serif;
      color: #064420;
      font-weight: bold;
@@ -38,63 +32,28 @@
      font-family: 'Roboto', sans-serif;
  }
 
-
 /* bullet of services fonts */
 .services-title h1 {
          font-family: "Orbitron", sans-serif;
-         font-size: 10vh;
+        font-size: clamp(1rem, 6vw, 5rem);
+}
+
+.partnerships h2{
+    font-family: "Orbitron", sans-serif;
+    font-size: clamp(1rem, 4vw, 3rem);
+    color: #064420;
+    text-align: center;
+    margin-bottom: 2vh;
 }
 .topic-left h2, .topic-right h2 {
-    font-size: 10vh;
+   font-size: clamp(.8rem, 4vw, 3rem); /* min ~20px, scales, max ~48px */
      font-family: "Orbitron", sans-serif;
     color: #064420;
 }
 
 .topic-left p, .topic-right p {
-    font-size: 5vh;
+    font-size: clamp(.5rem, 2.5vw, 1.5rem); /* min ~16px, scales, max ~24px */
     color: #064420;
     font-family: 'Roboto', sans-serif;
 }
 
- /* Blog font format */
- .blog .blog-title {
-      font-family: "Orbitron", sans-serif;
-     font-size: 3.5vh;
-     color: #064420;
-     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-}
-
- .blog-main h1 {
-      font-family: "Orbitron", sans-serif;
-     font-size: 3.5vh;
-     color: #064420;
-     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-}
-
- .blog-main h2 {
-      font-family: "Orbitron", sans-serif;
-     font-size: 3vh;
-     color: #064420;
-     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-}
-
- .blog-main h3 {
-      font-family: "Orbitron", sans-serif;
-     font-size: 2.5vh;
-     color: #064420;
-     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-}
-
-.blog-main p {
-     font-family: 'Roboto', sans-serif;
-     font-size: 2vh;
-     color: #064420;
-     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-}
-
- .blog-main ul > li {
-    font-family: 'Roboto', sans-serif;
-     font-size: 2vh;
-     color: #064420;
-     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-}

@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="resources/css/form-popup.css">
   <!-- adding font from google - Orbitron-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
   <title>Welcome to TechOnDemand</title>
 </head>
@@ -26,7 +26,7 @@
   <section>
     <header class='header'>
 
-      <div class="logo"><img src="resources/images/TechLogo.jpg" alt="Tech On Demand Logo"></div>
+      <div class="logo"><img src="resources/images/techondemandlogo.png" alt="Tech On Demand Logo"></div>
 
       <hr class="header-break">
       </hr>
@@ -49,10 +49,11 @@
       <div class="main-container">
 
         <div class="slideshow">
-          <img id="slide1" class="active" src="resources/images/smart-devices.jpg" alt="Slideshow">
-          <img id="slide2" src="resources/images/laptop.jpg">
+          <video autoplay muted loop id="myVideo">
+            <source src="resources/images/HeadVid.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
         </div>
-
         <div class="text-content-hero" id="text-content-hero">
 
           <h1 class="hero" id="hero-banner">Powering Homes & Businesses with Smarter Solutions!</h1>
@@ -142,67 +143,39 @@
           </div>
         </div>
       </div>
-
     </section>
-    <!--Blog section - to be changed to implement wordpress blog posts-->
+
+    <!-- google reviews -->
     <section>
-      <div class="blog">
-
-        <div class="blog-title">
-          <h1>BLOG OF THE DAY!</h1>
-        </div>
-
-        <div class="blog-main">
-
-
-          <h1>How Smart Home Automation is Transforming Modern Living</h1>
-
-          <p id="main-blog-desc">Smart home automation is no longer a futuristic concept — it’s a reality that’s
-            reshaping the way we live,
-            work, and interact with our environments. From controlling lighting and climate to enhancing security and
-            energy efficiency, smart home technology offers convenience, safety, and savings at your fingertips.</p>
-
-          <h2>The Benefits of Smart Home Automation</h2>
-
-          <ul class="blog-list">
-            <li><strong>Convenience and Control:</strong> Manage your home remotely via smartphones, tablets, or voice
-              commands. Turn off lights, adjust the thermostat, or lock doors while you’re away.</li>
-            <li><strong>Enhanced Security:</strong> Automated security systems with smart locks, cameras, and motion
-              sensors provide real-time monitoring and alerts.</li>
-            <li><strong>Energy Efficiency:</strong> Smart thermostats, lighting systems, and appliances help reduce
-              energy consumption and lower your bills.</li>
-            <li><strong>Customization and Comfort:</strong> Create personalized routines like waking up to gradually
-              brightened lights, coffee brewing automatically, or music starting at your preferred volume.</li>
-          </ul>
-
-          <h2>Popular Smart Home Devices</h2>
-
-          <ul class="blog-list">
-            <li><strong>Smart Lighting:</strong> Control brightness, color, and schedules remotely.</li>
-            <li><strong>Smart Thermostats:</strong> Maintain optimal temperature and save on heating/cooling.</li>
-            <li><strong>Voice Assistants:</strong> Amazon Alexa, Google Assistant, or Apple HomeKit streamline control.
-            </li>
-            <li><strong>Security Systems:</strong> Smart locks, doorbell cameras, and motion sensors for safety.</li>
-          </ul>
-
-          <h2>Getting Started</h2>
-          <p>Start small: choose a few devices that fit your lifestyle and budget. Consider compatibility and
-            connectivity — many devices work best within a unified platform. Gradually expand your smart home system for
-            maximum convenience.</p>
-
-          <h3>Conclusion</h3>
-          <p>Smart home automation enhances comfort, efficiency, and security while making everyday life simpler. By
-            embracing this technology, you’re investing in a connected, smarter future.</p>
-        </div>
+      <div class="google-reviews">
+        <div id="featurable-a84d2d74-ffd8-49df-a88b-9bbd9ff2f862" data-featurable-async></div>
+        <script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
       </div>
     </section>
+
+    <!-- partnerships and products -->
+    <section>
+      <div class="partnerships">
+        <h2>Our Products</h2>
+        <ul class="product-logos">
+          <li><img src="" alt="Shaw Logo"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </div>
+    </section>
+
   </main>
 
   <!--Footer section - Standard across all pages-->
   <section>
     <div class="techondemand-footer">
       <div class="footer-left">
-        <img id="footer-logo" src="resources/images/TechLogo.jpg" alt="Tech On Demand Logo">
+        <img id="footer-logo" src="resources/images/techondemandlogo.png" alt="Tech On Demand Logo">
         <div>
           <p>© 2025 Tech On Demand | A Hewcor Technologies Company</p>
           <p>Trusted experts in Electrical, IT, AV, Networking & Automation.</p>
