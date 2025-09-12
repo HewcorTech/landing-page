@@ -35,8 +35,11 @@ body {
    overflow-x: hidden;
    margin: 17vh 0 5vh 0;
    bottom: 10;
-   background-color: rgb(210, 247, 210);
-   background-size: 100% 100%;
+   background-image: url('resources/images/background.jpg');
+   background-attachment: fixed;   /* Makes it stay in place */
+  background-size: cover;         /* Cover the entire screen */
+  background-position: center;    /* Center it */
+  background-repeat: no-repeat;
 }
 
 /* header styling*/
@@ -61,7 +64,6 @@ body {
    /* prevent overflow */
     background-color: rgb(210, 247, 210);
    z-index: 100;
-
 }
 
 .header .logo {

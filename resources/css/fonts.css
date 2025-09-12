@@ -34,7 +34,7 @@
 
 /* bullet of services fonts */
 .services-title h1 {
-    color: #4B4B4B;
+    color: #f5f5dc;
          font-family: 'Inter', sans-serif;
         font-size: clamp(1rem, 6vw, 5rem);
         font-weight: normal
@@ -50,12 +50,12 @@
 .topic-left h2, .topic-right h2 {
    font-size: clamp(.8rem, 4vw, 3rem); /* min ~20px, scales, max ~48px */
     font-family: 'Inter', sans-serif;
-    color: #4B4B4B;
+    color: #f5f5dc;
 }
 
 .topic-left p, .topic-right p {
     font-size: clamp(.5rem, 2.5vw, 1.5rem); /* min ~16px, scales, max ~24px */
-    color: #4B4B4B;
+    color: #f5f5dc;
     font-family: 'Inter', sans-serif;
 }
 

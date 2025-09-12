@@ -1,5 +1,12 @@
  /* Index.html body styling */
-
+ .body-section {
+   background: linear-gradient(rgba(255,255,255, .8), rgba(255,255,255, 0.8)), 
+   url('../images/background.jpg');
+   background-attachment: fixed;   /* Makes it stay in place */
+  background-size: cover;         /* Cover the entire screen */
+  background-position: center;    /* Center it */
+  background-repeat: no-repeat;
+}
 .main-container {
     display: flex;
     justify-content: center;
@@ -59,6 +66,8 @@
  }
 
 /* services section */
+
+
 .services-title{
    box-sizing: border-box;
    display: flex;
@@ -66,17 +75,19 @@
    justify-content: center;
    align-items: center;
     width: 100%;
-    margin: 1rem auto;
-    
+    margin: 0 auto;
+    padding: 5vh 0;
+    background-color: rgba(47, 79, 79, .8); 
 }
 
-.services-bubble {
-   background-color: rgba(210, 247, 210, .5);
-}
 
 .services-title h1{ 
    align-items: center;
-   padding: 0 0 2vh 0;
+   padding: 2vh 0 2vh 0;
+  
+       width: 100%;
+       text-align: center;
+
  }
 
  .network, .climate, .security, .entertainment, .smrtlight {
