@@ -10,6 +10,17 @@ document.querySelectorAll('.header-menu li').forEach(item => {
     submenu.style.display = 'block';
   });
 
+   // Mobile tap: first tap shows submenu, second tap follows link
+  link.addEventListener('click', (e) => {
+    if (window.innerWidth <= 768) { // mobile breakpoint
+      if (submenu.style.display !== 'block') {
+        e.preventDefault(); // stop navigation
+        submenu.style.display = 'block';
+      }
+      // else: second tap will follow the link
+    }
+  });
+
   // Start hide timer when mouse leaves
   item.addEventListener('mouseleave', () => {
     hideTimeout = setTimeout(() => {
