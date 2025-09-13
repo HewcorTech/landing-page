@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=" TechOnDemand delivers expert residential and small commercial solutions in
+  <meta name='description' content=" TechOnDemand delivers expert residential and small commercial solutions in
     electrical, IT, low voltage, automation, and audio visual systems. Reliable, efficient, and tech-forward service you
     can trust.">
   <link rel="stylesheet" href="resources/css/styles.css">
@@ -12,15 +12,35 @@
   <link rel="stylesheet" href="resources/css/index-mobile.css">
   <link rel="stylesheet" href="resources/css/fonts.css">
   <link rel="stylesheet" href="resources/css/form-popup.css">
-  <title>About US: Tech On Demand</title>
+  
+  <!-- adding font from google - Orbitron-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+  <!-- adding font from google - Space mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- adding font from google - Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <title>Welcome to TechOnDemand</title>
 </head>
 
 <body>
+
   <!--Header section - standard across all pages-->
   <section>
     <header class='header'>
 
-      <div class="logo"><img src="resources/images/TechLogo.jpg" alt="Tech On Demand Logo"></div>
+      <div class="logo"><img src="resources/images/techondemandlogo.png" alt="Tech On Demand Logo"></div>
 
       <hr class="header-break">
       </hr>
@@ -28,26 +48,51 @@
       <nav>
         <ul class="header-menu">
           <li id="home"><a href='index.html'>HOME</a></li>
+            <ul class="submenu">
+              <li><a href="index.html#top-of-page">What we do</a></li>
+              <li><a href="index.html#mid-page">What people are saying</a></li>
+              <li><a href='index.html#sitemap'>Site map</a></li>
+            </ul>
+          </li>
           <li id="services"><a href='services.html'>SERVICES</a></li>
+            <ul class="submenu">
+              <li>A</li>
+              <li>B</li>
+              <li>C</li>
+            </ul>
+          </li>
           <li id="projects"><a href='projects.html'>PROJECTS</a></li>
+            <ul class="submenu">
+              <li>A</li>
+              <li>B</li>
+              <li>C</li>
+            </ul>
+          </li>
           <li id="about-us"><a href='aboutus.html'>ABOUT US</a></li>
+            <ul class="submenu">
+              <li>A</li>
+              <li>B</li>
+              <li>C</li>
+            </ul>
+          </li>
         </ul>
       </nav>
 
     </header>
   </section>
 
-
-
+  <!--main body-->
   <main>
-
+    <div id="#top-of-page">hi</div>
+  <div id="mid-page">blah</div>
+  <div id="sitemap">sitemap</div>
   </main>
 
-    <!--Footer section - Standard across all pages-->
+  <!--Footer section - Standard across all pages-->
   <section>
     <div class="techondemand-footer">
       <div class="footer-left">
-        <img id="footer-logo" src="resources/images/TechLogo.jpg" alt="Tech On Demand Logo">
+        <img id="footer-logo" src="resources/images/techondemandlogo.png" alt="Tech On Demand Logo">
         <div>
           <p>© 2025 Tech On Demand | A Hewcor Technologies Company</p>
           <p>Trusted experts in Electrical, IT, AV, Networking & Automation.</p>
@@ -60,8 +105,8 @@
         <a href='https://www.facebook.com/profile.php?id=100047008406153'><img id="facebook-logo"
             src="resources/images/Facebook-Brand-Asset-Pack/Facebook Brand Asset Pack/Logo/Primary Logo/Facebook_Logo_Primary.png"
             alt="Facebook Icon"></a>
-        <a href='https://x.com/techondemadYYC'><img id="x-logo"
-            src="resources/images/x-logo/logo-black.png" alt="Instagram Icon"></a>
+        <a href='https://x.com/techondemadYYC'><img id="x-logo" src="resources/images/x-logo/logo-black.png"
+            alt="Instagram Icon"></a>
         <a href="https://www.instagram.com/yyctechondemand?igsh=NXVjd2ZrNnZxc2wy"><img id='insta-logo'
             src="resources/images/IG_brand_asset_pack_2023/01 Static Glyph/03 Black Glyph/Instagram_Glyph_Black.png"></a>
       </div>
@@ -71,7 +116,7 @@
     <div id="popupForm" class="modal">
 
       <div class="modal-content">
-          <span class="close-btn">&times;</span> 
+        <span class="close-btn">&times;</span>
         <form class="quote-form" autocomplete="on">
           <h2>Request a Quote</h2>
 
@@ -105,6 +150,7 @@
   <script src="resources/JS/request-a-quote-button.js"></script>
   <script src="resources/JS/slideshow.js"></script>
   <script src="resources/JS/submitPopup.js"></script>
+  <script src="resources/JS/submenutimer.js"></script>
 
 </body>
 
