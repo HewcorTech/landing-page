@@ -36,35 +36,39 @@ if (window.innerWidth > 768) {
 }
 
 if(window.innerWidth <= 768) {
-document.querySelectorAll('.header-menu > li').forEach(item => {
-  const submenu = item.querySelector('.submenu');
-  const link = item.querySelector('a');
-  if (!submenu || !link) return;
+  const allSubmenus = document.querySelectorAll('.header-menu .submenu');
 
-  let isOpen = false;
+  document.querySelectorAll('.header-menu > li').forEach(item => {
+    const submenu = item.querySelector('.submenu');
+    const link = item.querySelector('a');
+    if (!submenu || !link) return;
 
-  link.addEventListener('click', (e) => {
-    // detect mobile/touch
-    const isTouch = window.matchMedia('(pointer: coarse)').matches || ('ontouchstart' in window);
-    if (isTouch || window.innerWidth <= 900) {
+    let isOpen = false;
+
+    const eventType = ('ontouchstart' in window) ? 'touchstart' : 'click';
+
+    link.addEventListener(eventType, (e) => {
       if (!isOpen) {
-        submenu.forEach(list, () => {
-          submenu.style.display = 'none';
+        e.preventDefault(); // stop navigation on first tap
+        // close all other submenus
+        allSubmenus.forEach(s => {
+          if (s !== submenu) s.style.display = 'none';
         });
 
-        e.preventDefault(); // stop navigation first tap
         submenu.style.display = 'block';
         isOpen = true;
-      } 
-      // second tap will follow link
-    }
-  });
+      } else {
+        // second tap will follow link
+        isOpen = false;
+      }
+    });
 
-  // Optional: clicking outside closes submenu
-  document.addEventListener('click', (e) => {
-    if (!item.contains(e.target)) {
-      submenu.style.display = 'none';
-      isOpen = false;
-    }
+    // clicking outside closes submenu
+    document.addEventListener(eventType, (e) => {
+      if (!item.contains(e.target)) {
+        submenu.style.display = 'none';
+        isOpen = false;
+      }
+    });
   });
-});}
+}
