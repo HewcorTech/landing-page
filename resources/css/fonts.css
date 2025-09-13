@@ -82,7 +82,7 @@
 }
 
 .homeAutomation h1, .entertainment h1 {
-    color: #f5f5dc;
+    color: #4B4B4B;
          font-family: 'Inter', sans-serif;
         font-size: clamp(.8rem, 4vw, 3rem);
         font-weight: normal
