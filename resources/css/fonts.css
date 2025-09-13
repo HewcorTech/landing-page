@@ -72,3 +72,25 @@
   font-size: clamp(.5rem, .8rem, 2rem);
   text-decoration: none; /* optional, removes underline */
 }
+
+/*services page*/
+.networking h1, .securityANDaccess h1 {
+        color: #f5f5dc;
+         font-family: 'Inter', sans-serif;
+        font-size: clamp(.8rem, 4vw, 3rem);
+        font-weight: normal
+}
+
+.homeAutomation h1, .entertainment h1 {
+    color: #f5f5dc;
+         font-family: 'Inter', sans-serif;
+        font-size: clamp(.8rem, 4vw, 3rem);
+        font-weight: normal
+}
+
+.sitemap p {
+    color: #f5f5dc;
+    font-family: 'Inter', sans-serif;
+        font-size: clamp(.8rem, 1vw, 3rem);
+        font-weight: normal
+}
