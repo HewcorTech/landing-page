@@ -106,12 +106,12 @@ body {
   position: absolute;
   top: 100%;         /* directly below parent li */
   left: 50%;         /* start from the center of li */
-  transform: translateX(-50%); /* center horizontally */
+  transform: translate(-50%, 10px); /* center horizontally */
   background-color: rgba(47, 79, 79, 0.8);
   border-radius: 10px;
-  padding: 1vh 2vw;
+  padding: 1vh 1vw;
   list-style: none;
-  width: 10vw;
+  width: 8vw;
   z-index: 2000;
   text-align: center;
 }

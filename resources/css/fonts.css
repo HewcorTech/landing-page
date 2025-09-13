@@ -69,5 +69,6 @@
 .submenu a:active {
   color: #f5f5dc;
   font-family: 'Inter', sans-serif;
+  font-size: clamp(.5rem, .8rem, 2rem);
   text-decoration: none; /* optional, removes underline */
 }

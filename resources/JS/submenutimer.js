@@ -1,40 +1,42 @@
 if (window.innerWidth > 768) {
   const allSubmenus = document.querySelectorAll('.header-menu li .submenu');
+  let hideTimeout; // global timer
 
   document.querySelectorAll('.header-menu li').forEach(item => {
     const submenu = item.querySelector('.submenu');
     if (!submenu) return;
 
-    let hideTimeout;
-
+    // Show submenu on hover
     item.addEventListener('mouseenter', () => {
-      // Close all other submenus first
+      clearTimeout(hideTimeout); // cancel any previous hide
       allSubmenus.forEach(s => {
         if (s !== submenu) s.style.display = 'none';
       });
-
-      clearTimeout(hideTimeout); // cancel any pending hide for this submenu
       submenu.style.display = 'block';
     });
 
+    // Start 5-second hide timer when leaving <li>
     item.addEventListener('mouseleave', () => {
+      clearTimeout(hideTimeout);
       hideTimeout = setTimeout(() => {
         submenu.style.display = 'none';
-      }, 300);
+      }, 1000);
     });
 
+    // Cancel timer if hovering over submenu itself
     submenu.addEventListener('mouseenter', () => {
       clearTimeout(hideTimeout);
     });
 
+    // Start timer when leaving submenu
     submenu.addEventListener('mouseleave', () => {
+      clearTimeout(hideTimeout);
       hideTimeout = setTimeout(() => {
         submenu.style.display = 'none';
-      }, 300);
+      }, 1000);
     });
   });
 }
-
 if(window.innerWidth <= 768) {
   const allSubmenus = document.querySelectorAll('.header-menu .submenu');
 
