@@ -1,42 +1,70 @@
-document.querySelectorAll('.header-menu li').forEach(item => {
-  const submenu = item.querySelector('.submenu');
-  if (!submenu) return;
+if (window.innerWidth > 768) {
+  const allSubmenus = document.querySelectorAll('.header-menu li .submenu');
 
-  let hideTimeout;
+  document.querySelectorAll('.header-menu li').forEach(item => {
+    const submenu = item.querySelector('.submenu');
+    if (!submenu) return;
 
-  // Show submenu immediately on hover
-  item.addEventListener('mouseenter', () => {
-    clearTimeout(hideTimeout); // cancel any pending hide
-    submenu.style.display = 'block';
+    let hideTimeout;
+
+    item.addEventListener('mouseenter', () => {
+      // Close all other submenus first
+      allSubmenus.forEach(s => {
+        if (s !== submenu) s.style.display = 'none';
+      });
+
+      clearTimeout(hideTimeout); // cancel any pending hide for this submenu
+      submenu.style.display = 'block';
+    });
+
+    item.addEventListener('mouseleave', () => {
+      hideTimeout = setTimeout(() => {
+        submenu.style.display = 'none';
+      }, 300);
+    });
+
+    submenu.addEventListener('mouseenter', () => {
+      clearTimeout(hideTimeout);
+    });
+
+    submenu.addEventListener('mouseleave', () => {
+      hideTimeout = setTimeout(() => {
+        submenu.style.display = 'none';
+      }, 300);
+    });
   });
+}
 
-   // Mobile tap: first tap shows submenu, second tap follows link
+if(window.innerWidth <= 768) {
+document.querySelectorAll('.header-menu > li').forEach(item => {
+  const submenu = item.querySelector('.submenu');
+  const link = item.querySelector('a');
+  if (!submenu || !link) return;
+
+  let isOpen = false;
+
   link.addEventListener('click', (e) => {
-    if (window.innerWidth <= 768) { // mobile breakpoint
-      if (submenu.style.display !== 'block') {
-        e.preventDefault(); // stop navigation
+    // detect mobile/touch
+    const isTouch = window.matchMedia('(pointer: coarse)').matches || ('ontouchstart' in window);
+    if (isTouch || window.innerWidth <= 900) {
+      if (!isOpen) {
+        submenu.forEach(list, () => {
+          submenu.style.display = 'none';
+        });
+
+        e.preventDefault(); // stop navigation first tap
         submenu.style.display = 'block';
-      }
-      // else: second tap will follow the link
+        isOpen = true;
+      } 
+      // second tap will follow link
     }
   });
 
-  // Start hide timer when mouse leaves
-  item.addEventListener('mouseleave', () => {
-    hideTimeout = setTimeout(() => {
+  // Optional: clicking outside closes submenu
+  document.addEventListener('click', (e) => {
+    if (!item.contains(e.target)) {
       submenu.style.display = 'none';
-    }, 300); // stays open for 1 second (1000ms)
+      isOpen = false;
+    }
   });
-
-  // If you hover back over submenu, cancel the hide timer
-  submenu.addEventListener('mouseenter', () => {
-    clearTimeout(hideTimeout);
-  });
-
-  // Leaving submenu starts hide timer again
-  submenu.addEventListener('mouseleave', () => {
-    hideTimeout = setTimeout(() => {
-      submenu.style.display = 'none';
-    }, 300);
-  });
-});
+});}
