@@ -2,7 +2,7 @@
      text-decoration: none;
      color: #4B4B4B;
      font-family: 'Inter', sans-serif;
-     font-size: clamp(.5rem, 3vh, 3rem);
+     font-size: clamp(.5rem, 2vh, 2rem);
  }
 
  .text-content-hero h1 {
@@ -120,7 +120,7 @@
  }
 
  .employeecard h2 {
-     font-size: clamp(1rem, 4vw, 3.5rem);
+     font-size: clamp(1rem, 3vw, 3rem);
      font-family: 'Inter', sans-serif;
      color: #f5f5dc;
      margin-bottom: 2vh;
