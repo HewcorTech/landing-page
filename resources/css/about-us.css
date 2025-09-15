@@ -1,20 +1,20 @@
 /* formatting for the about us page as well as the contact us page */
 
 .about-us {
- box-sizing: border-box;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: auto;
     margin: 0 auto;
- 
-    padding:5vh 4vw 3vh 4vw;
-    background-color: rgba(47, 79, 79, .8); 
+
+    padding: 5vh 4vw 3vh 4vw;
+    background-color: rgba(47, 79, 79, .8);
 }
 
-.about-us p{
+.about-us p {
     margin: 2vh 5vw;
 }
 
@@ -23,23 +23,25 @@
 .contact-us {
     display: flex;
     flex-direction: column;
-    background-color: rgba(47, 79, 79, .8); 
+    background-color: rgba(47, 79, 79, .8);
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 0; 
+    padding: 0;
     text-align: center;
 }
 
-.contact-us h1, .contact-us h2{
+.contact-us h1,
+.contact-us h2 {
     line-height: 2;
     font-weight: bold;
 }
 
-.contact-us p{
+.contact-us p {
     line-height: 1.4;
 }
-.spacer{
+
+.spacer {
     padding-bottom: 2vh;
 }
 
@@ -51,16 +53,55 @@
 }
 
 .visitat {
-    margin:0;
+    margin: 0;
     padding: 0;
     padding-top: 3vh;
 }
 
 .map {
-  width: 100%;          /* already set in HTML, but reinforce */
-  height: 50vh; 
-  margin: 0;            /* kill margins */
-  padding: 0;           /* kill padding */
-  border: 0;            /* clean edge */
-  line-height: 0;
+    width: 100%;
+    /* already set in HTML, but reinforce */
+    height: 50vh;
+    margin: 0;
+    /* kill margins */
+    padding: 0;
+    /* kill padding */
+    border: 0;
+    /* clean edge */
+    line-height: 0;
+}
+
+/* employee cards */
+
+.employeecard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2vh 2vw;
+}
+
+.employeephoto {
+    border-radius: 10px;
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.employeephoto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.employeeinfo {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2% 10% 2% 2%;
+}
+
+.employeeinfo p {
+text-align: center;
 }
