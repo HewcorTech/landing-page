@@ -169,11 +169,18 @@
  /*Site map*/
 
  .sitemap h2,
- .sitemap h4 a,
- .sitemap p a {
+ .sitemap h4 a{
      color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
      text-decoration: none;
-     font-size: clamp(.8rem, .8vw, 3rem);
+     font-size: clamp(.8rem, 1vw, 3rem);
+ }
+
+ .sitemap p a {
+    color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: clamp(.8rem, .8vw, 2rem);
  }
