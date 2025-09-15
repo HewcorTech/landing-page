@@ -78,19 +78,62 @@
         color: #f5f5dc;
          font-family: 'Inter', sans-serif;
         font-size: clamp(.8rem, 4vw, 3rem);
-        font-weight: normal
+        font-weight: normal;
 }
 
 .homeAutomation h1, .entertainment h1 {
     color: #4B4B4B;
          font-family: 'Inter', sans-serif;
         font-size: clamp(.8rem, 4vw, 3rem);
-        font-weight: normal
+        font-weight: normal;
 }
 
+/* ABOUT US page*/
+.about-us h1 {
+color: #f5f5dc;
+         font-family: 'Inter', sans-serif;
+        font-size: clamp(.8rem, 4vw, 3rem);
+        font-weight: bold;
+}
+
+.about-us p {
+font-family: 'Inter', sans-serif;
+        font-size: clamp(.5rem, 2.5vw, 1.5rem); /* min ~16px, scales, max ~24px */
+        font-weight: normal;
+}
+
+/* contact us page */
+
+.contact-us h1{
+   color: #f5f5dc;
+         font-family: 'Inter', sans-serif;
+        font-size: clamp(.8rem, 4vw, 3rem);
+        font-weight: bold;
+}
+.contact-us h2{
+     color: #f5f5dc;
+font-family: 'Inter', sans-serif;
+        font-size: clamp(.5rem, 3vw, 1.5rem); /* min ~16px, scales, max ~24px */
+        font-weight: normal;
+}
+
+.contact-us p{
+     color: #f5f5dc;
+    font-size: clamp(.5rem, 2.5vw, 1.5rem); /* min ~16px, scales, max ~24px */
+        font-weight: normal;
+}
+/*Site map*/
 .sitemap p {
     color: #f5f5dc;
     font-family: 'Inter', sans-serif;
         font-size: clamp(.8rem, 1vw, 3rem);
-        font-weight: normal
+        font-weight: normal;
+}
+
+a.phonenumber {
+    text-decoration: none;
+     color: #f5f5dc;
+    font-family: 'Inter', sans-serif;
+        font-size: clamp(.8rem, 1vw, 3rem);
+        font-weight: normal;
 }

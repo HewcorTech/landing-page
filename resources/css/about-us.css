@@ -1,0 +1,66 @@
+/* formatting for the about us page as well as the contact us page */
+
+.about-us {
+ box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+ 
+    padding:5vh 4vw 3vh 4vw;
+    background-color: rgba(47, 79, 79, .8); 
+}
+
+.about-us p{
+    margin: 2vh 5vw;
+}
+
+/* contact us page */
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(47, 79, 79, .8); 
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+
+.contact-us h1, .contact-us h2{
+    line-height: 2;
+    font-weight: bold;
+}
+
+.contact-us p{
+    line-height: 1.4;
+}
+.spacer{
+    padding-bottom: 2vh;
+}
+
+.spacer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.visitat {
+    margin:0;
+    padding: 0;
+    padding-top: 3vh;
+}
+
+.map {
+  width: 100%;          /* already set in HTML, but reinforce */
+  height: 50vh; 
+  margin: 0;            /* kill margins */
+  padding: 0;           /* kill padding */
+  border: 0;            /* clean edge */
+  line-height: 0;
+}
