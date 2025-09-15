@@ -1,5 +1,5 @@
 
-.networking, .homeAutomation, .securityANDaccess, .entertainment {
+.networking, .homeAutomation, .securityANDaccess, .entertainment, .electrical {
     width: 100%; 
     height: 30vh;
     display: flex;
@@ -7,7 +7,7 @@
     padding: 2vh 0;
 }
 
-.networking, .securityANDaccess, .sitemap {
+.homeAutomation, .securityANDaccess, .sitemap {
     background-color: rgba(47, 79, 79, .8); 
 }
 

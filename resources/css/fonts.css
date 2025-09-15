@@ -2,18 +2,18 @@
      text-decoration: none;
      color: #4B4B4B;
      font-family: 'Inter', sans-serif;
-     font-size: clamp( .5rem, 3vh, 3rem);
+     font-size: clamp(.5rem, 3vh, 3rem);
  }
 
  .text-content-hero h1 {
-    font-family: 'Inter', sans-serif;
-     font-size: clamp( 1rem, 4vh, 5rem);
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(1rem, 4vh, 5rem);
      color: white;
  }
 
  .text-content-hero h2 {
-      font-family: 'Inter', sans-serif;
-     font-size: clamp( .5rem, 2.5vh, 3rem);
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.5rem, 2.5vh, 3rem);
      color: white;
  }
 
@@ -30,110 +30,150 @@
      font-family: 'Inter', sans-serif;
  }
 
-/* bullet of services fonts */
-.services-title h1 {
-    color: #f5f5dc;
-         font-family: 'Inter', sans-serif;
-        font-size: clamp(1rem, 6vw, 5rem);
-        font-weight: normal
-}
-
-.topic-left h2, .topic-right h2 {
-   font-size: clamp(.8rem, 4vw, 3rem); /* min ~20px, scales, max ~48px */
-    font-family: 'Inter', sans-serif;
-    color: #f5f5dc;
-}
-
-.topic-left p, .topic-right p {
-    font-size: clamp(.5rem, 2.5vw, 1.5rem); /* min ~16px, scales, max ~24px */
-    color: #f5f5dc;
-    font-family: 'Inter', sans-serif;
-}
-
-/*google reviews section */
-.reviews-header h2{
-    font-size: clamp(1rem, 6vw, 5rem);
-    font-family: 'Inter', sans-serif;
-    color: #4B4B4B;
-}
-
-.reviews-header h3{
-    font-size: clamp(.8rem, 4vw, 3rem); /* min ~20px, scales, max ~48px */
-    font-family: 'Inter', sans-serif;
-    color: #4B4B4B;
-}
-
-.submenu a:link,
-.submenu a:visited,
-.submenu a:hover,
-.submenu a:active {
-  color: #f5f5dc;
-  font-family: 'Inter', sans-serif;
-  font-size: clamp(.5rem, .8rem, 2rem);
-  text-decoration: none; /* optional, removes underline */
-}
-
-/*services page*/
-.networking h1, .securityANDaccess h1 {
-        color: #f5f5dc;
-         font-family: 'Inter', sans-serif;
-        font-size: clamp(.8rem, 4vw, 3rem);
-        font-weight: normal;
-}
-
-.homeAutomation h1, .entertainment h1 {
-    color: #4B4B4B;
-         font-family: 'Inter', sans-serif;
-        font-size: clamp(.8rem, 4vw, 3rem);
-        font-weight: normal;
-}
-
-/* ABOUT US page*/
-.about-us h1 {
-color: #f5f5dc;
-         font-family: 'Inter', sans-serif;
-        font-size: clamp(.8rem, 4vw, 3rem);
-        font-weight: bold;
-}
-
-.about-us p {
-font-family: 'Inter', sans-serif;
-        font-size: clamp(.5rem, 2.5vw, 1.5rem); /* min ~16px, scales, max ~24px */
-        font-weight: normal;
-}
-
-/* contact us page */
-
-.contact-us h1{
-   color: #f5f5dc;
-         font-family: 'Inter', sans-serif;
-        font-size: clamp(.8rem, 4vw, 3rem);
-        font-weight: bold;
-}
-.contact-us h2{
+ /* bullet of services fonts */
+ .services-title h1 {
      color: #f5f5dc;
-font-family: 'Inter', sans-serif;
-        font-size: clamp(.5rem, 3vw, 1.5rem); /* min ~16px, scales, max ~24px */
-        font-weight: normal;
-}
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(1rem, 6vw, 5rem);
+     font-weight: normal
+ }
 
-.contact-us p{
+ .topic-left h2,
+ .topic-right h2 {
+     font-size: clamp(.8rem, 4vw, 3rem);
+     /* min ~20px, scales, max ~48px */
+     font-family: 'Inter', sans-serif;
      color: #f5f5dc;
-    font-size: clamp(.5rem, 2.5vw, 1.5rem); /* min ~16px, scales, max ~24px */
-        font-weight: normal;
-}
-/*Site map*/
-.sitemap p {
-    color: #f5f5dc;
-    font-family: 'Inter', sans-serif;
-        font-size: clamp(.8rem, 1vw, 3rem);
-        font-weight: normal;
-}
+ }
 
-a.phonenumber {
-    text-decoration: none;
+ .topic-left p,
+ .topic-right p {
+     font-size: clamp(.5rem, 2.5vw, 1.5rem);
+     /* min ~16px, scales, max ~24px */
      color: #f5f5dc;
-    font-family: 'Inter', sans-serif;
-        font-size: clamp(.8rem, 1vw, 3rem);
-        font-weight: normal;
-}
+     font-family: 'Inter', sans-serif;
+ }
+
+ /*google reviews section */
+ .reviews-header h2 {
+     font-size: clamp(1rem, 6vw, 5rem);
+     font-family: 'Inter', sans-serif;
+     color: #4B4B4B;
+ }
+
+ .reviews-header h3 {
+     font-size: clamp(.8rem, 4vw, 3rem);
+     /* min ~20px, scales, max ~48px */
+     font-family: 'Inter', sans-serif;
+     color: #4B4B4B;
+ }
+
+ .submenu a:link,
+ .submenu a:visited,
+ .submenu a:hover,
+ .submenu a:active {
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.5rem, .8rem, 2rem);
+     text-decoration: none;
+     /* optional, removes underline */
+ }
+
+ /*services page*/
+ .homeAutomation h1,
+ .securityANDaccess h1 {
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.8rem, 4vw, 3rem);
+     font-weight: normal;
+ }
+
+ .networking h1,
+ .entertainment h1,
+ .electrical h1 {
+     color: #4B4B4B;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.8rem, 4vw, 3rem);
+     font-weight: normal;
+ }
+
+ /* ABOUT US page*/
+ .about-us h1 {
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.8rem, 4vw, 3rem);
+     font-weight: bold;
+ }
+
+ .about-us p {
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.5rem, 2.5vw, 1.5rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+ }
+
+ .team h1 {
+     color: #4B4B4B;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.8rem, 4vw, 3rem);
+     font-weight: bold;
+ }
+
+ .employeecard h2 {
+     font-size: clamp(1rem, 4vw, 3.5rem);
+     font-family: 'Inter', sans-serif;
+     color: #f5f5dc;
+     margin-bottom: 2vh;
+ }
+
+ .employeecard p {
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.5rem, 2.5vw, 1.5rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+ }
+
+ /* contact us page */
+
+ .contact-us h1 {
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.8rem, 4vw, 3rem);
+     font-weight: bold;
+ }
+
+ .contact-us h2 {
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.5rem, 3vw, 1.5rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+ }
+
+ .contact-us p {
+     color: #f5f5dc;
+     font-size: clamp(.5rem, 2.5vw, 1.5rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+ }
+
+ a.phonenumber {
+     text-decoration: none;
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.8rem, 1vw, 3rem);
+     font-weight: normal;
+ }
+
+ /*Site map*/
+
+ .sitemap h2,
+ .sitemap h4 a,
+ .sitemap p a {
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: clamp(.8rem, .8vw, 3rem);
+ }

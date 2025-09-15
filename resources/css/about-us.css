@@ -9,13 +9,58 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-
     padding: 5vh 4vw 3vh 4vw;
     background-color: rgba(47, 79, 79, .8);
 }
 
 .about-us p {
     margin: 2vh 5vw;
+}
+
+/* employee cards */
+
+.employeecard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2vh 2vw;
+    padding-bottom: 2vh;
+}
+
+.team {
+    text-align: center;
+}
+
+.team h1{
+    padding: 2vh 0 2vh 0;
+}
+.employeephoto {
+    border-radius: 10px;
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.employeephoto img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.employeeinfo {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2% 2% 2% 2%;
+     background-color: rgba(47, 79, 79, .8);
+     border-radius: 15px;
+     margin-right: 10%;
+}
+
+.employeeinfo p {
+text-align: center;
 }
 
 /* contact us page */
@@ -55,7 +100,7 @@
 .visitat {
     margin: 0;
     padding: 0;
-    padding-top: 3vh;
+    padding-top: 2vh;
 }
 
 .map {
@@ -71,37 +116,3 @@
     line-height: 0;
 }
 
-/* employee cards */
-
-.employeecard {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 2vh 2vw;
-}
-
-.employeephoto {
-    border-radius: 10px;
-    width: 15%;
-    height: auto;
-    margin-left: 10%;
-    margin-right: 2%;
-}
-.employeephoto img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.employeeinfo {
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding:2% 10% 2% 2%;
-}
-
-.employeeinfo p {
-text-align: center;
-}
