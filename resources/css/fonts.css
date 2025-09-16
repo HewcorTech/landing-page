@@ -184,3 +184,62 @@
      text-decoration: none;
      font-size: clamp(.8rem, .8vw, 2rem);
  }
+
+ /* packages */
+ .content1 h1, .content1 h2{
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+ }
+ 
+
+
+ .content2 h1, .content2 h2{
+    color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+ }
+ .content1 p, .content2 p{
+     font-size: clamp(.8rem, .8vw, 2rem);
+ }
+ 
+ .content1 p{
+    color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+    font-size: clamp(.8rem, 1.2vw, 3rem);
+ }
+
+ .content1 h6 {
+    color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-style: italic;
+     font-size: clamp(.8rem, .8vw, 2rem);
+ }
+  .packlist h3{
+    color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+     font-size: clamp(.8rem, 1vw, 3rem);
+ }
+  .packlist h4{
+    color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+     font-size: clamp(.8rem, 1vw, 3rem);
+ }
+  .packlist h5{
+    color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+ }
+  .packlist li p{
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-style: italic;
+ }
+
+ .secondarylist ul {
+    color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+       font-size: clamp(.8rem, .8vw, 2rem);
+ }

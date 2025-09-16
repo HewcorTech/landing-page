@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="resources/css/index-mobile.css">
   <link rel="stylesheet" href="resources/css/fonts.css">
   <link rel="stylesheet" href="resources/css/form-popup.css">
+  <link rel="stylesheet" href="resources/css/packages.css">
+
   <!-- adding font from google - Orbitron-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,12 +39,9 @@
   <!--Header section - standard across all pages-->
   <section>
     <header class='header'>
-
       <div class="logo"><img src="resources/images/techondemandlogo.png" alt="Tech On Demand Logo"></div>
-
       <hr class="header-break">
       </hr>
-
       <nav>
         <ul class="header-menu">
           <li id="home"><a href='index.html'>HOME</a>
@@ -62,9 +61,11 @@
           </li>
           <li id="packages"><a href='packages.html'>PACKAGES</a>
             <ul class="submenu">
-              <li><a href="packages.html#top-of-page">ELECTRICAL</a></li>
-              <li><a href="packages.html#mid-page">HOME AUTOMATION</a></li>
-              <li><a href='packages.html#sitemap'>SITE MAP</a></li>
+              <li><a href="packages.html#smartliving">SMART LIVING</a></li>
+              <li><a href="packages.html#core">CONNECTED HOME</a></li>
+              <li><a href="packages.html#core">CONTROL YOUR HOME</a></li>
+              <li><a href="packages.html#addons">ADD-ONS</a></li>
+              <li><a href="packages.html#sitemap">SITEMAP</a></li>
             </ul>
           </li>
           <li id="about-us"><a href='aboutus.html'>ABOUT US</a>
@@ -83,53 +84,240 @@
           </li>
         </ul>
       </nav>
-
-
     </header>
   </section>
 
-  <!--Index (Main) page body - specific to the Index page-->
+  <!--Main body-->
   <main>
     <div class="body-section">
-     <section>
-        <div id="sitemap" class="sitemap">
+
+      <!-- Smart living -->
+      <section id="smartliving">
+        <div class="content1">
+          <h1 id="smart-btn">Smart Living</h1>
+          <h2>Starting at: $399</h2>
+          <p>Perfect for first-time smart home owners who want convenience and control without a steep investment.
+          </p>
+          <h6><em>(DIY pricing, professional installation is recommended)*<em></h6>
+          <ul id="smartlist" class="packlist">
+            <li id="energysaver">
+              <h3>Energy Saver: Climate</h3>
+              <h4>Starting at - $399</h4>
+              <h5 id="smart-included-btn">What is included?</h5>
+              <ul id="smart-secondary" class="secondarylist">
+                <li>
+                  <h3>Comes with</h3>
+                    <ul class="comeswith">
+                      <li>1 - Smart Thermostat</li>
+                      <li>App control</li>
+                      <li>Temperature schedules through the app</li>
+                    </ul>
+                  
+                </li>
+              </ul>
+            </li>
+
+            <li id="secureentry">
+              <h3>Security: Secure Entry</h3>
+              <h4>Starting at - $499</h4>
+              <h5 id="secureent-btn">What is included?</h5>
+              <ul id="secureentsecondary" class="secondarylist">
+                <li>
+                  <h3>Comes with</h3>
+                    <ul class="comeswith">
+                      <li>1 - Smart Door Lock</li>
+                      <li>1 - video Doorbell Camera</li>
+                      <li>App Control</li>
+                      <li>View Footage from anywhere</li>
+                    </ul>
+               
+                </li>
+              </ul>
+            </li>
+            <li id="simpleliving">
+              <h3>Lifestyle: Simple Living</h3>
+              <h4>Starting at - $379</h4>
+              <h5 id="simplelive-btn">What is included?</h5>
+              <ul id="simplelive" class="secondarylist">
+                <li>
+                  <h3>Comes with</h3>
+                    <ul class="comeswith">
+                      <li>1 - Voice Hub</li>
+                      <li>2 - Smart Plugs/Switches</li>
+                      <li>App Control</li>
+                      <li>Automated Routines through the App</li>
+                    </ul>
+                 
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+     
+      <!-- The connected home - core -->
+      <section id="core">
+        <div class="content1">
+          <h1 id="core-btn">Core: The Connected Home</h1>
+          <h2>Starting from $1,499 - $2,199</h2>
+          <p>Reliable performance with Lutron lighting, Ring Security, and Sonos audio. Rock-solid apps, rock-solid
+            reliability.</p>
+          <h6><em>(Professional installation included)</em></h6>
+
+          <ul id="energyconnectedlist" class="packlist">
+            <li id="energyconnected">
+              <h3>Energy Saver: Connected Living</h3>
+              <h4>Starting at - $1499</h4>
+              <h5 id="encont-btn">What is included?</h5>
+              <ul id="enerconn" class="secondarylist">
+                <li>
+                  <h3>Comes with</h3>
+                    <ul class="comeswith">
+                      <li>1 - Thermostat</li>
+                      <li>3 - Smart Plugs/Switches</li>
+                      <li>App Control</li>
+                      <li>Energy Monitoring</li>
+                      <li>Custom Automation Routines</li>
+                    </ul>
+                  
+                </li>
+              </ul>
+            </li>
+
+            <li id="safeandsound">
+              <h3>Security: Safe and Sound</h3>
+              <h4>Starting at - $1,799</h4>
+              <h5 id="safesound-btn">What is included?</h5>
+              <ul id="safesoundsec" class="secondarylist">
+                <li>
+                  <h3>Comes with</h3>
+                    <ul class="comeswith">
+                      <li>1 - Doorbell Camera</li>
+                      <li>1 - Outdoor Spotlight Camera</li>
+                      <li>4 - Door/Window Sensors</li>
+                      <li>1 - Motion Sensor</li>
+                      <li>1 - Panel</li>
+                      <li>Ring Alarm System App</li>
+                      <li>View cameras and sensor status from anywhere</li>
+                    </ul>
+               
+                </li>
+              </ul>
+            </li>
+
+            <li id="smartroutines">
+              <h3>Lifestyle: Smart Routines</h3>
+              <h4>Starting at - $2,199</h4>
+
+              <h5 id="smrtrout-btn">What is included?</h5>
+              <ul id="smrtrout" class="secondarylist">
+                <li>
+                  <h3>Comes with</h3>
+                    <ul class="comeswith">
+                      <li>Multi-room Audio</li>
+                      <li>Lighting Scenes</li>
+                      <li>Custom Automation Setup</li>
+                    </ul>
+                 
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+     
+      <!-- Control without compromise - signature -->
+      <section id="signature">
+        <div class="content1">
+          <h1 id="signature-btn">Signature: Control Without Compromise<h1>
+              <h2>Starting from $4,999 - $14,999 +<h2>
+
+                  <ul class="packlist">
+
+                    <li id="completeefficiency">
+                      <h3>Energy Saver: Complete Efficiency</h3>
+                      <h4>Starting at - </h4>
+                      <p>$4,999 + </p>
+                      <h5>What is included?</h5>
+                    </li>
+                    <li id="totalprotection">
+                      <h3>Security: Total Protection</h3>
+                      <h4>Starting at - </h4>
+                      <p>$6,999 + </p>
+                      <h5>What is included?</h5>
+                    </li>
+                    <li id="onetouch">
+                      <h3>Lifestyle: One-touch Living</h3>
+                      <h4>Starting at - </h4>
+                      <p>$9,999 + </p>
+                      <h5>What is included?</h5>
+                    </li>
+                    <li id="control4">
+                      <h3>Control4 Signature</h3>
+                      <h4>Starting at - </h4>
+                      <p>$14,999 + </p>
+                      <h5>What is included?</h5>
+                    </li>
+                  </ul>
+
+        </div>
+      </section>
+
+     
+      <!-- add-ons and upgrades -->
+      <section id="addons">
+        <div class="content2">
+        </div>
+      </section>
+
+      <section id="sitemap">
+        <div class="sitemap">
           <h2>SITE MAP</h2>
 
           <div class="sitegrid">
             <div class="sitesection">
               <h4><a href="index.html">HOME</a></h4>
-                <p><a href="index.html#top-of-page">What we do</a></p>
-                <p><a href="index.html#mid-page">What people are saying</a></p>
+              <p><a href="index.html#top-of-page">What we do</a></p>
+              <p><a href="index.html#mid-page">What people are saying</a></p>
             </div>
+
             <div class="sitesection">
               <h4><a href="services.html">SERVICES</a></h4>
-                <p><a href="services.html#networkInfra">Networking</a></p>
-                <p><a href="services.html#Automation">Home Automation</a></p>
-                <p><a href="services.html#entertainment">Home Audio and Visual</a></p>
-                <p><a href="services.html#securityAccess">Security and Access Control</a></p>
-                <p><a href="services.html#electrical">Electrical</a></p>
+              <p><a href="services.html#networkInfra">Networking</a></p>
+              <p><a href="services.html#Automation">Home Automation</a></p>
+              <p><a href="services.html#entertainment">Home Audio and Visual</a></p>
+              <p><a href="services.html#securityAccess">Security and Access Control</a></p>
+              <p><a href="services.html#electrical">Electrical</a></p>
             </div>
+
             <div class="sitesection">
               <h4><a href="packages.html">PACKAGES</a></h4>
-                <p><a href=""></a></p>
-                <p><a href=""></a></p>
-                <p><a href=""></a></p>
+              <p><a href="packages.html#smartliving">Smart Living</a></p>
+              <p><a href="packages.html#core">Connected Home</a></p>
+              <p><a href="packages.html#signature">Control Your Home</a></p>
+              <p><a href="packages.html#addons">Add-ons</a></p>
             </div>
+
             <div class="sitesection">
               <h4><a href="aboutus.html">ABOUT US</a></h4>
-                <p><a href="aboutus.html#about-us">About us</a></p>
-                <p><a href="aboutus.html#our-team">Our Team</a></p>
+              <p><a href="aboutus.html#about-us">About us</a></p>
+              <p><a href="aboutus.html#our-team">Our Team</a></p>
             </div>
+
             <div class="sitesection">
               <h4><a href="contact-us.html">CONTACT US</a></h4>
-                <p><a href="contact-us.html#top-of-page">Contact us</a></p>
-                <p><a href="contact-us.html#maploc">Location</a></p>
+              <p><a href="contact-us.html#top-of-page">Contact us</a></p>
+              <p><a href="contact-us.html#maploc">Location</a></p>
             </div>
+
             <div class="sitesection">
               <h4><a href="blog.html">BLOG</a></h4>
-                <p><a href=""></a></p>
-                <p><a href=""></a></p>
             </div>
+
           </div>
         </div>
       </section>
@@ -198,6 +386,7 @@
   <script src="resources/JS/request-a-quote-button.js"></script>
   <script src="resources/JS/submitPopup.js"></script>
   <script src="resources/JS/submenutimer.js"></script>
+  <script src="resources/JS/packages.js"></script>
 
 
 </body>

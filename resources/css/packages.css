@@ -1,0 +1,91 @@
+#smartliving{
+    margin-top: 2vh;
+}
+
+.content1 {
+    background-color: rgba(47, 79, 79, .8);
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 2vh 0 2vh 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.content1 h5, .content1 h2, .content2 h5, .content2 h2{
+    margin-top: 10px;
+}
+
+.content2 {
+    width: 100%;
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+ .content1 h6 {
+    margin-top: 5px;
+    padding-bottom: 5px;
+ }
+
+.packlist {
+    display: none;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10vw;
+    margin: 0;
+    padding: 2vh 0 2vh 0;
+}
+
+.packlist li{
+    flex: 1 1 90%;
+    text-align: center;
+}
+
+#energysaver,
+#secureentry,
+#simpleliving,
+#energyconnected,
+#safeandsount,
+#smartroutines,
+#completeefficiency,
+#totalprotection,
+#onetouch,
+#control4 {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+#smart-btn:hover,
+#smart-included-btn:hover,
+#secureent-btn:hover,
+#simplelive-btn:hover,
+#encont-btn:hover,
+#safesound-btn,
+#smrtrout-btn,
+#core-btn,
+#encont-btn,
+#safesound-btn {
+    cursor: pointer;
+}
+
+.secondarylist {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 2vh 0 2vh 0;
+}
+
+.comeswith {
+    list-style: none;
+    margin-top: 5px;
+}
+
