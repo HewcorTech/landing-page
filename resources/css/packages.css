@@ -4,23 +4,42 @@
 }
 
 .packages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2vw;
    padding-bottom: 2vh;
    background-color: rgba(47, 79, 79, .8);
+   border: 1px solid red;
 }
 
+.packages section {
+    min-width: 20vw;
+    flex: 1 1 20%;
+}
 .content1 {
-    
-    width: 100%;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
     margin: 0;
-    padding: 2vh 0 2vh 0;
-    padding-bottom: 0;
+    padding: 2vh 0 0 0;
     text-align: center;
+    border: 1px solid black;
+}
+
+.tile {
+border: 1px solid purple;
+
 }
 
 .content1 h5, .content1 h2, .content2 h5, .content2 h2{
     margin-top: 10px;
 }
+
 
 .content2 {
     width: 100%;
@@ -37,21 +56,19 @@
 
 .packlist {
     display: none;
-    flex-direction: row;
+    flex-direction: column;
     list-style: none;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 3%;
     margin: 0;
-    padding: 2vh 0 2vh 0;
-}
+   }
 
 .packlist li{
     flex: 1 1 90%;
     text-align: center;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    
 }
 
 #energysaver,

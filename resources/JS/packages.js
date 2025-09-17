@@ -11,6 +11,7 @@ smartliving.addEventListener('click', (e) => {
 
 const corebtn = document.getElementById('core-btn');
 const core = document.getElementById('energyconnectedlist');
+
 corebtn.addEventListener('click', (e) => {
     e.stopPropagation(); 
     core.style.display = 
@@ -19,6 +20,7 @@ corebtn.addEventListener('click', (e) => {
 
 const sigbtn = document.getElementById('signature-btn');
 const sig = document.getElementById('signaturecollection');
+
 sigbtn.addEventListener('click', (e) => {
     e.stopPropagation(); 
     sig.style.display = 
