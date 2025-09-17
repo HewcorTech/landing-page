@@ -186,18 +186,20 @@
  }
 
  /* packages */
+ 
  .content1 h1, .content1 h2{
      color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
+     font-size: clamp(.5rem, 4vh, 5rem);
  }
  
 
-
  .content2 h1, .content2 h2{
-    color: #f5f5dc;
+    color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
+     font-size: clamp(.5rem, 4vh, 5rem);
  }
  .content1 p, .content2 p{
      font-size: clamp(.8rem, .8vw, 2rem);
@@ -242,4 +244,24 @@
     color: #f5f5dc;
      font-family: 'Inter', sans-serif;
        font-size: clamp(.8rem, .8vw, 2rem);
+ }
+
+ .addons1 h1 {
+color: #4B4B4B;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+      font-size: clamp(.5rem, 4vh, 5rem);
+ }
+
+ .addons1 h2 {
+color: #4B4B4B;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+      font-size: clamp(.5rem, 3vh, 5rem);
+ }
+
+ .addons1 p {
+    color: #4B4B4B;
+font-family: 'Inter', sans-serif;
+    font-size: clamp(.8rem, 1.2vw, 3rem);
  }

@@ -1,9 +1,15 @@
 #smartliving{
     margin-top: 2vh;
+
+}
+
+.packages {
+   padding-bottom: 2vh;
+   background-color: rgba(47, 79, 79, .8);
 }
 
 .content1 {
-    background-color: rgba(47, 79, 79, .8);
+    
     width: 100%;
     height: auto;
     margin: 0;
@@ -36,7 +42,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 10vw;
+    gap: 3%;
     margin: 0;
     padding: 2vh 0 2vh 0;
 }
@@ -44,6 +50,8 @@
 .packlist li{
     flex: 1 1 90%;
     text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 #energysaver,
@@ -52,29 +60,25 @@
 #energyconnected,
 #safeandsount,
 #smartroutines,
+#safeandsound,
 #completeefficiency,
 #totalprotection,
 #onetouch,
 #control4 {
     position: relative;
     margin-bottom: 5px;
+     background-color: rgba(255, 255, 255, .3);
+    border-radius: 10px;
 }
 
 #smart-btn:hover,
-#smart-included-btn:hover,
-#secureent-btn:hover,
-#simplelive-btn:hover,
-#encont-btn:hover,
-#safesound-btn,
-#smrtrout-btn,
-#core-btn,
-#encont-btn,
-#safesound-btn {
+#core-btn:hover,
+#signature-btn:hover {
     cursor: pointer;
 }
 
 .secondarylist {
-    display: none;
+    display: flex;
     flex-direction: column;
     list-style: none;
     justify-content: center;
@@ -89,3 +93,28 @@
     margin-top: 5px;
 }
 
+/* underline package titles */
+.content1 h1 {
+    text-decoration: underline;
+}
+
+.addons1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2vh auto 2vh auto;
+    width: 80%;
+
+}
+.addons1 p {
+    margin: 1vh auto 1vh auto;
+}
+
+.addons1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh auto;
+}
