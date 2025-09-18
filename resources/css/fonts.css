@@ -112,6 +112,13 @@
      font-weight: normal;
  }
 
+ .about-us li{
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.5rem, 1vw, 2rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+     font-style: italic;
+ }
  .team h1 {
      color: #4B4B4B;
      font-family: 'Inter', sans-serif;
@@ -192,7 +199,7 @@
      color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-     font-size: clamp(.5rem, 4vh, 5rem);
+     font-size: clamp(.5rem, 2vh, 2rem);
  }
 
  .content2 h1{
@@ -211,13 +218,13 @@
 
  .content1 p,
  .content2 p {
-     font-size: clamp(.8rem, 1.4vw, 2.5rem);
+     font-size: clamp(.8rem, 1.4vw, 2rem);
  }
 
  .content1 p {
      color: #4B4B4B;
      font-family: 'Inter', sans-serif;
-     font-size: clamp(.8rem, 1.4vw, 3rem);
+     font-size: clamp(.8rem, 1vw, 2rem);
  }
 
  .content1 h6 {
@@ -231,14 +238,14 @@
      color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-     font-size: clamp(.8rem, 2vw, 3rem);
+     font-size: clamp(.8rem, 1.5vw, 3rem);
  }
 
  .packlist h4 {
      color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-      font-size: clamp(.8rem, 2vw, 3rem);
+      font-size: clamp(.8rem, 1.2vw, 2.5rem);
  }
 
  .packlist h5 {
@@ -248,7 +255,7 @@
  }
 
  .packlist li{
-     font-size: clamp(.8rem, 1.5vw, 3rem);
+     font-size: clamp(.6rem, 1vw, 2rem);
  }
 
  .packlist li p {
