@@ -42,3 +42,34 @@ document.addEventListener('click', (e) => {
     sig.style.display = 'none';
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const popups = [
+    { buttonId: "smart-included-btn", overlayId: "overlay-smart", popupId: "smart-secondary" },
+    { buttonId: "secureent-btn", overlayId: "overlay-smart", popupId: "secureentsecondary" },
+    { buttonId: "simplelive-btn", overlayId: "overlay-smart", popupId: "simplelive" },
+    { buttonId: "encont-btn", overlayId: "overlay-core", popupId: "enerconn" },
+    { buttonId: "safesound-btn", overlayId: "overlay-core", popupId: "safesoundsec" },
+    { buttonId: "smrtrout-btn", overlayId: "overlay-core", popupId: "smrtrout" },
+    // Add more as needed for signature...
+  ];
+
+  popups.forEach(({ buttonId, overlayId, popupId }) => {
+    const btn = document.getElementById(buttonId);
+    const overlay = document.getElementById(overlayId);
+    const popup = document.getElementById(popupId);
+
+    if (btn && overlay && popup) {
+      btn.addEventListener("click", () => {
+        overlay.style.display = "block";
+        popup.style.display = "block";
+      });
+
+      // Close when clicking the overlay
+      overlay.addEventListener("click", () => {
+        overlay.style.display = "none";
+        popup.style.display = "none";
+      });
+    }
+  });
+});

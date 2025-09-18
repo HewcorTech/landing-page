@@ -188,10 +188,10 @@
  /* packages */
  
  .content1 h1, .content1 h2{
-     color: #f5f5dc;
+     color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-     font-size: clamp(.5rem, 4vh, 5rem);
+     font-size: clamp(.5rem, 2vh, 3.5rem);
  }
  
 
@@ -199,29 +199,29 @@
     color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-     font-size: clamp(.5rem, 4vh, 5rem);
+     font-size: clamp(.5rem, 2vh, 3.5rem);
  }
  .content1 p, .content2 p{
-     font-size: clamp(.8rem, .8vw, 2rem);
+     font-size: clamp(.8rem, 1.4vw, 2.5rem);
  }
  
  .content1 p{
-    color: #f5f5dc;
+    color: #4B4B4B;
      font-family: 'Inter', sans-serif;
-    font-size: clamp(.8rem, 1.2vw, 3rem);
+    font-size: clamp(.8rem, 1.4vw, 3rem);
  }
 
  .content1 h6 {
-    color: #f5f5dc;
+    color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-style: italic;
-     font-size: clamp(.8rem, .8vw, 2rem);
+     font-size: clamp(.8rem, 1vw, 2rem);
  }
   .packlist h3{
     color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-     font-size: clamp(.8rem, 1vw, 3rem);
+     font-size: clamp(.8rem, 1.2vw, 3rem);
  }
   .packlist h4{
     color: #f5f5dc;
@@ -264,4 +264,8 @@ color: #4B4B4B;
     color: #4B4B4B;
 font-family: 'Inter', sans-serif;
     font-size: clamp(.8rem, 1.2vw, 3rem);
+ }
+
+ .tile {
+    color: #4B4B4B;
  }
