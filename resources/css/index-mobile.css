@@ -12,6 +12,7 @@
      font-size: .6rem !important;
    }
 
+
    .header-menu li .submenu {
      position: fixed;
      /* position relative to viewport */
@@ -184,45 +185,94 @@
    }
 
    .sitemap h2 {
- color: #f5f5dc;
-    font-size: clamp(.1rem, .3vw, .5rem);
-    font-weight: bold;
-}
-.sitemap h4 a, .sitemap p a {
-    color: #f5f5dc;
-    font-family: 'Inter', sans-serif;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: clamp(.1rem, 2vw, 3rem) !important;
-}       
-.sitemap{
-   display: flex;
-   flex-direction: column;
-   margin: 0 auto;
-   padding-bottom: 7vh;
-   width: 100%;
-   height: 20vh;
-   background-color: rgba(47, 79, 79, .8);
+     color: #f5f5dc;
+     font-size: clamp(.1rem, .3vw, .5rem);
+     font-weight: bold;
+   }
+
+   .sitemap h4 a,
+   .sitemap p a {
+     color: #f5f5dc;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: clamp(.1rem, 2vw, 3rem) !important;
+   }
+
+   .sitemap {
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+     padding-bottom: 7vh;
+     width: 100%;
+     height: 20vh;
+     background-color: rgba(47, 79, 79, .8);
+   }
+
+   .sitemap h2 {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+   }
+
+   .sitegrid {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin: 2vh 2vw;
+     gap: 2%;
+   }
+
+   .sitesection {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     line-height: 1.2;
+   }
+
+   /* packages section */
+   .content1 {
+     display: flex;
+     flex-direction: column !important;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     width: 100%;
+     gap: 2vh !important;
+   }
+
+   .tile {
+     width: 90% !important;
+     margin: 1vh auto;
+     min-height: 5vh !important;
+     height: 16vh !important;
+   }
+
+  
+.packlist {
+    display: flex ;
+    flex-direction: row ;
+    width: 90%;         /* flexible width */
+    max-width: 500px;   /* cap it on large screens */  /* limit height so it doesn't overflow screen */
+    overflow-y: auto !important;   /* scroll if content is too tall */
+    flex-wrap: wrap;
+    overflow: scroll !important;
 }
 
-.sitemap h2{
-   display: flex;
-   justify-content: center;
-   text-align: center;
+.headlist {
+       /* don’t shrink, width fits content */
+    width: 60vw !important;         /* or adjust for mobile */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.sitegrid {
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin: 2vh 2vw;
-gap:2%;
-}
-
-.sitesection {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   line-height: 1.2;
+ /* mobile marign */
+#smartliving {
+  margin-top: 5vh;
 }
  }

@@ -169,7 +169,7 @@
  /*Site map*/
 
  .sitemap h2,
- .sitemap h4 a{
+ .sitemap h4 a {
      color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
@@ -178,7 +178,7 @@
  }
 
  .sitemap p a {
-    color: #f5f5dc;
+     color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
      text-decoration: none;
@@ -186,86 +186,109 @@
  }
 
  /* packages */
- 
- .content1 h1, .content1 h2{
+
+ .tile h1,
+ .tile h2 {
+     color: #4B4B4B;
+     font-family: 'Inter', sans-serif;
+     font-weight: bold;
+     font-size: clamp(.5rem, 2vh, 3rem);
+ }
+
+ .content2 h1{
      color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
      font-size: clamp(.5rem, 2vh, 3.5rem);
  }
- 
 
- .content2 h1, .content2 h2{
-    color: #4B4B4B;
+ .content2 h2 {
+     color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
      font-size: clamp(.5rem, 2vh, 3.5rem);
  }
- .content1 p, .content2 p{
+
+ .content1 p,
+ .content2 p {
      font-size: clamp(.8rem, 1.4vw, 2.5rem);
  }
- 
- .content1 p{
-    color: #4B4B4B;
+
+ .content1 p {
+     color: #4B4B4B;
      font-family: 'Inter', sans-serif;
-    font-size: clamp(.8rem, 1.4vw, 3rem);
+     font-size: clamp(.8rem, 1.4vw, 3rem);
  }
 
  .content1 h6 {
-    color: #4B4B4B;
+     color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-style: italic;
      font-size: clamp(.8rem, 1vw, 2rem);
  }
-  .packlist h3{
-    color: #f5f5dc;
+
+ .packlist h3 {
+     color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-     font-size: clamp(.8rem, 1.2vw, 3rem);
+     font-size: clamp(.8rem, 2vw, 3rem);
  }
-  .packlist h4{
-    color: #f5f5dc;
+
+ .packlist h4 {
+     color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-     font-size: clamp(.8rem, 1vw, 3rem);
+      font-size: clamp(.8rem, 2vw, 3rem);
  }
-  .packlist h5{
-    color: #f5f5dc;
+
+ .packlist h5 {
+     color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
  }
-  .packlist li p{
+
+ .packlist li{
+     font-size: clamp(.8rem, 1.5vw, 3rem);
+ }
+
+ .packlist li p {
      color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-style: italic;
  }
 
  .secondarylist ul {
-    color: #f5f5dc;
+     color: #f5f5dc;
      font-family: 'Inter', sans-serif;
-       font-size: clamp(.8rem, .8vw, 2rem);
+     font-size: clamp(.8rem, .8vw, 2rem);
  }
 
  .addons1 h1 {
-color: #4B4B4B;
+     color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-      font-size: clamp(.5rem, 4vh, 5rem);
+     font-size: clamp(.5rem, 4vh, 5rem);
  }
 
  .addons1 h2 {
-color: #4B4B4B;
+     color: #4B4B4B;
      font-family: 'Inter', sans-serif;
      font-weight: bold;
-      font-size: clamp(.5rem, 3vh, 5rem);
+     font-size: clamp(.5rem, 3vh, 5rem);
  }
 
  .addons1 p {
-    color: #4B4B4B;
-font-family: 'Inter', sans-serif;
-    font-size: clamp(.8rem, 1.2vw, 3rem);
+     color: #4B4B4B;
+     font-family: 'Inter', sans-serif;
+     font-size: clamp(.8rem, 1.2vw, 3rem);
  }
 
  .tile {
-    color: #4B4B4B;
+     color: #4B4B4B;
+ }
+
+ .headlist h3,
+ .headlist h4,
+ .headlist li {
+     color: #4B4B4B;
  }

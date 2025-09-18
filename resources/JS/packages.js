@@ -45,14 +45,25 @@ document.addEventListener('click', (e) => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const popups = [
-    { buttonId: "smart-included-btn", overlayId: "overlay-smart", popupId: "smart-secondary" },
-    { buttonId: "secureent-btn", overlayId: "overlay-smart", popupId: "secureentsecondary" },
-    { buttonId: "simplelive-btn", overlayId: "overlay-smart", popupId: "simplelive" },
-    { buttonId: "encont-btn", overlayId: "overlay-core", popupId: "enerconn" },
-    { buttonId: "safesound-btn", overlayId: "overlay-core", popupId: "safesoundsec" },
-    { buttonId: "smrtrout-btn", overlayId: "overlay-core", popupId: "smrtrout" },
-    // Add more as needed for signature...
+    { buttonId: "smart-btn", overlayId: "overlay-smart", popupId: "smart-secondary" },
+    { buttonId: "core-btn", overlayId: "overlay-core", popupId: "enerconn" },
+    { buttonId: "signature-btn", overlayId: "overlay-signature", popupId: "sig-second" }
+     // Add more as needed for signature...
   ];
+
+    // Collect all overlays and popup elements once
+const overlays = popups
+  .map(p => document.getElementById(p.overlayId))
+  .filter(Boolean); // ✅ filter after building the array
+const popupEls = popups
+  .map(p => document.getElementById(p.popupId))
+  .filter(Boolean);
+
+  // Utility to close *all* overlays and popups
+  const closeAll = () => {
+    overlays.forEach(o => (o.style.display = "none"));
+    popupEls.forEach(p => (p.style.display = "none"));
+  };
 
   popups.forEach(({ buttonId, overlayId, popupId }) => {
     const btn = document.getElementById(buttonId);
@@ -61,15 +72,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (btn && overlay && popup) {
       btn.addEventListener("click", () => {
+        closeAll(); // 🔹 close everything first
         overlay.style.display = "block";
         popup.style.display = "block";
       });
 
-      // Close when clicking the overlay
-      overlay.addEventListener("click", () => {
-        overlay.style.display = "none";
-        popup.style.display = "none";
-      });
+      overlay.addEventListener("click", closeAll);
     }
   });
 });
