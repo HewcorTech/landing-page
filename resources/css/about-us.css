@@ -12,9 +12,21 @@
     padding: 5vh 4vw 3vh 4vw;
     background-color: rgba(47, 79, 79, .8);
 }
+.about-us ul {
+    list-style: none;
+}
 
 .about-us p {
     margin: 2vh 5vw;
+}
+
+.about-us li {
+    margin: 2vh 8vw;
+}
+
+.about-us li:before {
+    content: '⇀';
+    margin-right: 1vw;
 }
 
 /* employee cards */

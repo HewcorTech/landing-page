@@ -62,6 +62,15 @@
      padding: 0;
    }
 
+.topic-left h2,
+ .topic-right h2 {
+     font-size: .8em !important;
+ }
+
+ .topic-left p,
+ .topic-right p {
+     font-size: .6em !important;
+ }
 
    .text-content-hero {
      margin: 0;
@@ -286,6 +295,45 @@
    /* mobile marign */
    #smartliving {
      margin-top: 5vh;
+   }
+
+ }
+
+ @media (max-width: 1080px){ 
+.packlist {
+     position: fixed;
+     top: 15vh;
+     /* place below header */
+     left: 50%;
+     transform: translateX(-50%);
+     width: 90vw;
+     max-height: 75vh;
+     /* keep inside viewport */
+     overflow-y: auto;
+     overflow-x: auto;
+     /* vertical scroll only */
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     /* space between items */
+     padding: 1rem;
+
+     border-radius: 10px;
+     z-index: 3000;
+   }
+
+   .headlist {
+     width: 80% !important;
+     /* force full width */
+     flex: 0 0 100% !important;
+     /* no shrinking, no growing */
+     text-align: center;
+     background-color: rgba(255, 255, 255, 1);
+     border-radius: 10px;
+     padding: 1vw;
+     margin: 1vh auto !important;
+     justify-content: center;
+     align-items: center;
    }
 
  }

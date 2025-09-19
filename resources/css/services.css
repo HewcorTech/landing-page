@@ -1,13 +1,29 @@
 
-.networking, .homeAutomation, .securityANDaccess, .entertainment, .electrical {
-    width: 100%; 
-    height: 30vh;
+.service-tile, .service-tile2 {
+    width: 80%; 
+    height: auto;
+    max-height: 30vh;
     display: flex;
+    flex-direction: column;
     margin: 2vh auto 2vh auto;
     padding: 2vh 0;
+    text-align: center;
 }
 
-.homeAutomation, .securityANDaccess, .sitemap {
+.first-block .btn, .second-block .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-block {
     background-color: rgba(47, 79, 79, .8); 
 }
+
+.service-tile h1, 
+.service-tile p{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+
 
