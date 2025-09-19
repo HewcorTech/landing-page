@@ -305,12 +305,13 @@
 .second-block h2 {
        font-family: 'Inter', sans-serif;
      font-weight: bold;
-     font-size: clamp(.5rem, 2em, 3rem);
+     font-size: clamp(.8rem, 1.5em, 3rem);
 }
 
 .first-block p, 
 .second-block p {
-font-size: clamp(.8rem, 1.2vw, 3rem);
+    font-family: 'Inter', sans-serif;
+font-size: clamp(.8rem, 1.2em, 3rem);
 }
 
 .first-block h2, 
@@ -345,3 +346,6 @@ font-size: clamp(.8rem, 1.2vw, 3rem);
     cursor: pointer;
     transform: scale3d(1.3, 1.3, 1.3);
 }
+
+
+
