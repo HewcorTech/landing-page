@@ -62,15 +62,15 @@
      padding: 0;
    }
 
-.topic-left h2,
- .topic-right h2 {
+   .topic-left h2,
+   .topic-right h2 {
      font-size: .8em !important;
- }
+   }
 
- .topic-left p,
- .topic-right p {
+   .topic-left p,
+   .topic-right p {
      font-size: .6em !important;
- }
+   }
 
    .text-content-hero {
      margin: 0;
@@ -292,6 +292,17 @@
      align-items: center;
    }
 
+   /*services page */
+   .service-tile,
+   .service-tile2 {
+     display: flex;
+     width: 90%;
+     height: auto;
+     padding-bottom: 2vh;
+   }
+
+   
+
    /* mobile marign */
    #smartliving {
      margin-top: 5vh;
@@ -299,8 +310,8 @@
 
  }
 
- @media (max-width: 1080px){ 
-.packlist {
+ @media (max-width: 1080px) {
+   .packlist {
      position: fixed;
      top: 15vh;
      /* place below header */

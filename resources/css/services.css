@@ -1,7 +1,11 @@
+.first-block,
+.second-block {
 
-.service-tile, .service-tile2 {
-    width: 80%; 
+    display: flex;
     height: auto;
+}
+.service-tile, .service-tile2 {
+    width: 60%; 
     max-height: 30vh;
     display: flex;
     flex-direction: column;
@@ -24,6 +28,3 @@
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
-
-
-
