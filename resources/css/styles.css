@@ -58,7 +58,7 @@ body {
    padding-top: 1vh;
    overflow: visible;
    /* prevent overflow */
-   background-color: rgb(210, 247, 210);
+   background-color: rgba(31, 46, 46, 1);
    z-index: 100;
 }
 
@@ -113,7 +113,7 @@ body {
    /* start from the center of li */
    transform: translate(-50%, 10px);
    /* center horizontally */
-   background-color: rgba(47, 79, 79, 0.8);
+    background-color: rgba(31, 46, 46, .95);
    border-radius: 10px;
    padding: 1vh 1vw;
    list-style: none;
@@ -154,7 +154,7 @@ body {
    padding: 0;
    display: flex;
    justify-content: space-between;
-   background-color: rgb(210, 247, 210);
+    background-color: rgba(31, 46, 46, 1);
    box-sizing: border-box;
 }
 
@@ -185,7 +185,7 @@ body {
 }
 
 #footer-logo {
-   height: 4vh;
+   height: 3vh;
 }
 
 #facebook-logo {
@@ -267,7 +267,7 @@ body {
 
 /*background image - shared between slides */
 .body-section {
-   background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.8)),
+   background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.9)),
       url('../images/background.jpg');
    background-attachment: fixed;
    /* Makes it stay in place */
@@ -287,7 +287,7 @@ body {
    padding-top: 2vh;
    width: 100%;
    height: auto;
-   background-color: rgba(47, 79, 79, .8);
+    background-color: rgba(31, 46, 46, .8);
 }
 
 .sitemap h2{

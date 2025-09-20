@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
       popup.style.display = "block";
 
       // Send data to Google Sheet (fire and forget)
-      fetch("https://script.google.com/macros/s/AKfycbzWh_A4G-LFxn6cVLPobVH42sm4IkhR4n9-T8wS2rsFS_r4OaIYCMl2_7AMp2qJVVZcNA/exec", {
+      fetch("https://script.google.com/macros/s/AKfycbyEWwu96RYDrhXZ2CXrUYFMCJW3vfjrSPOCxd5I4so1RyRbvxRohRkfW4Oxl-fZ2iZGYg/exec", {
         method: "POST",
         body: data,
         headers: { "Content-Type": "application/x-www-form-urlencoded" }

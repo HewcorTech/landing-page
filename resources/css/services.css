@@ -2,13 +2,10 @@
 
 .service-tile, 
 .service-tile2 {
-    width: 100%; 
-   
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    padding: 0 0;
-    text-align: center;
+  height: 30vh;       /* matches children */
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;   /* keep things inside */
 }
 
 .first-block .btn, 
@@ -16,14 +13,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
-/* set up the image with text */
-.row .first-block,
-.row .second-block {
-    width: 50vw;
-    height: auto;
+
+.first-block,
+.second-block {
+  width: 50%;
+  height: 100%;       /* inherit parent height */
 }
 
 .row {
@@ -31,35 +29,31 @@
     width: 100%;
 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+   
 }
 
-.one, 
-.two,
-.three,
-.four,
-.five{
-        height: auto;
-}
 .row img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    align-items: center;
-    overflow:hidden;
+  width: 100%;
+  height: 100%;      /* force it to match parent */
+  object-fit: cover; /* crop edges, no vertical overflow */
+  display: block;
+
 }
 
 .color2 {
-     background-color: rgba(47, 79, 79, .8); 
+     background-color: rgba(31, 46, 46, .8);
 }
 
 .text-section {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 80%;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-section h2 {
+    margin-bottom: 1vh;
 }

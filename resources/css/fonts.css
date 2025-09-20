@@ -1,6 +1,6 @@
  .header-menu li a {
      text-decoration: none;
-     color: #4B4B4B;
+     color: #f5f5dc;
      font-family: 'Inter', sans-serif;
      font-size: clamp(.5rem, 1em, 2rem);
  }
@@ -21,7 +21,7 @@
  .techondemand-footer p {
      font-size: clamp(.4rem, 0.5vw, 1rem);
      font-family: "Space Mono", monospace;
-     color: #4B4B4B;
+     color: #f5f5dc;
      font-weight: bold;
  }
 
@@ -305,13 +305,13 @@
 .second-block h2 {
        font-family: 'Inter', sans-serif;
      font-weight: bold;
-     font-size: clamp(.8rem, 1.5em, 3rem);
+     font-size: clamp(.8rem, 1.2em, 3rem);
 }
 
 .first-block p, 
 .second-block p {
     font-family: 'Inter', sans-serif;
-font-size: clamp(.8rem, 1.2em, 3rem);
+font-size: clamp(.8rem, 1em, 2rem);
 }
 
 .first-block h2, 
@@ -325,14 +325,20 @@ font-size: clamp(.8rem, 1.2em, 3rem);
 }
 
 .first-block a {
+    margin-top: 10px;
     color: #4B4B4B;
     text-decoration: none;
 }
 
 .second-block a{
+    margin-top: 10px;
     color: #f5f5dc;
     text-decoration: none;
 }
+.spacer-text {
+    margin-top: 10px;
+}
+
 .first-block a:hover {
    color: rgb(53, 53, 241);
    cursor: pointer;
