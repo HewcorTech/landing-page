@@ -202,7 +202,7 @@
    .sitemap h4 a,
    .sitemap p a {
      color: #f5f5dc;
-     font-family: 'Inter', sans-serif;
+   
      font-weight: bold;
      text-decoration: none;
      font-size: clamp(.1rem, 2vw, 3rem) !important;
@@ -324,7 +324,7 @@ padding: 0 1vw;
 }
    .first-block p, 
 .second-block p {
-    font-family: 'Inter', sans-serif;
+  
 font-size: clamp(.4rem, .6em, 1rem) !important;
 }
 
