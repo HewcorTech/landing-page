@@ -1,24 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-22T10:41:59-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Website</title><subtitle>My portfolio and blog</subtitle><entry><title type="html">Getting Started with Lutron Smart Home</title><link href="http://localhost:4000/smart-home/automation/2025/09/22/my-second-post.html" rel="alternate" type="text/html" title="Getting Started with Lutron Smart Home" /><published>2025-09-22T00:00:00-06:00</published><updated>2025-09-22T00:00:00-06:00</updated><id>http://localhost:4000/smart-home/automation/2025/09/22/my-second-post</id><content type="html" xml:base="http://localhost:4000/smart-home/automation/2025/09/22/my-second-post.html"><![CDATA[<p>Lutron offers a wide range of smart lighting and shading solutions that can make your home more comfortable, energy-efficient, and convenient. Here’s a quick overview of what you can do with Lutron smart devices:</p>
-
-<h2 id="key-features">Key Features</h2>
-
-<h3 id="1-smart-lighting">1. Smart Lighting</h3>
-<p>Control your lights from anywhere using the Lutron app or voice assistants like Alexa, Google Assistant, or Siri. Set schedules, dimmers, and scenes for different moods or activities.</p>
-
-<h3 id="2-automated-shades">2. Automated Shades</h3>
-<p>Automate your window shades to adjust with the time of day, sunlight, or even your location. This can improve comfort and reduce energy costs.</p>
-
-<h3 id="3-voice-control">3. Voice Control</h3>
-<p>Integrate with popular voice assistants to control lights, shades, and other devices hands-free.</p>
-
-<h3 id="4-scenes-and-schedules">4. Scenes and Schedules</h3>
-<p>Create custom scenes for different activities like “Movie Night” or “Dinner Party.” Lights and shades adjust automatically based on your preferences.</p>
-
-<h3 id="5-energy-savings">5. Energy Savings</h3>
-<p>Lutron devices can help save energy by dimming or turning off lights when rooms are unoccupied, or by controlling shades to reduce heating/cooling costs.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-<p>Whether you are upgrading an existing home or building a new one, Lutron smart home solutions provide convenience, efficiency, and style. With simple installation and powerful automation options, you can take control of your environment effortlessly.</p>]]></content><author><name></name></author><category term="smart-home" /><category term="automation" /><summary type="html"><![CDATA[Lutron offers a wide range of smart lighting and shading solutions that can make your home more comfortable, energy-efficient, and convenient. Here’s a quick overview of what you can do with Lutron smart devices:]]></summary></entry><entry><title type="html">Basic Ring Camera Features</title><link href="http://localhost:4000/blog/security/smart-home/2025/09/22/my-first-post.html" rel="alternate" type="text/html" title="Basic Ring Camera Features" /><published>2025-09-22T00:00:00-06:00</published><updated>2025-09-22T00:00:00-06:00</updated><id>http://localhost:4000/blog/security/smart-home/2025/09/22/my-first-post</id><content type="html" xml:base="http://localhost:4000/blog/security/smart-home/2025/09/22/my-first-post.html"><![CDATA[<p>Ring cameras are a popular choice for home security because they are easy to install and offer many convenient features. Here’s a quick overview of the basics:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-22T10:48:41-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Website</title><subtitle>My portfolio and blog</subtitle><entry><title type="html">Basic Ring Camera Features</title><link href="http://localhost:4000/blog/security/smart-home/2025/09/22/ring-camera-features.html" rel="alternate" type="text/html" title="Basic Ring Camera Features" /><published>2025-09-22T00:00:00-06:00</published><updated>2025-09-22T00:00:00-06:00</updated><id>http://localhost:4000/blog/security/smart-home/2025/09/22/ring-camera-features</id><content type="html" xml:base="http://localhost:4000/blog/security/smart-home/2025/09/22/ring-camera-features.html"><![CDATA[<p>Ring cameras are a popular choice for home security because they are easy to install and offer many convenient features. Here’s a quick overview of the basics:</p>
 
 <h3 id="1-live-video">1. Live Video</h3>
 <p>Ring cameras allow you to stream live video directly to your smartphone or computer. This helps you monitor your property in real-time.</p>
@@ -40,4 +20,24 @@
 
 <hr />
 
-<p>Ring cameras provide peace of mind for homeowners who want easy-to-use, reliable security monitoring. Make sure to explore the app settings to customize notifications, recording schedules, and motion zones according to your needs.</p>]]></content><author><name></name></author><category term="blog" /><category term="security" /><category term="smart-home" /><summary type="html"><![CDATA[Ring cameras are a popular choice for home security because they are easy to install and offer many convenient features. Here’s a quick overview of the basics:]]></summary></entry></feed>
+<p>Ring cameras provide peace of mind for homeowners who want easy-to-use, reliable security monitoring. Make sure to explore the app settings to customize notifications, recording schedules, and motion zones according to your needs.</p>]]></content><author><name></name></author><category term="blog" /><category term="security" /><category term="smart-home" /><summary type="html"><![CDATA[Ring cameras are a popular choice for home security because they are easy to install and offer many convenient features. Here’s a quick overview of the basics:]]></summary></entry><entry><title type="html">Getting Started with Lutron Smart Home</title><link href="http://localhost:4000/smart-home/automation/2025/09/22/lutron-smart-home.html" rel="alternate" type="text/html" title="Getting Started with Lutron Smart Home" /><published>2025-09-22T00:00:00-06:00</published><updated>2025-09-22T00:00:00-06:00</updated><id>http://localhost:4000/smart-home/automation/2025/09/22/lutron-smart-home</id><content type="html" xml:base="http://localhost:4000/smart-home/automation/2025/09/22/lutron-smart-home.html"><![CDATA[<p>Lutron offers a wide range of smart lighting and shading solutions that can make your home more comfortable, energy-efficient, and convenient. Here’s a quick overview of what you can do with Lutron smart devices:</p>
+
+<h2 id="key-features">Key Features</h2>
+
+<h3 id="1-smart-lighting">1. Smart Lighting</h3>
+<p>Control your lights from anywhere using the Lutron app or voice assistants like Alexa, Google Assistant, or Siri. Set schedules, dimmers, and scenes for different moods or activities.</p>
+
+<h3 id="2-automated-shades">2. Automated Shades</h3>
+<p>Automate your window shades to adjust with the time of day, sunlight, or even your location. This can improve comfort and reduce energy costs.</p>
+
+<h3 id="3-voice-control">3. Voice Control</h3>
+<p>Integrate with popular voice assistants to control lights, shades, and other devices hands-free.</p>
+
+<h3 id="4-scenes-and-schedules">4. Scenes and Schedules</h3>
+<p>Create custom scenes for different activities like “Movie Night” or “Dinner Party.” Lights and shades adjust automatically based on your preferences.</p>
+
+<h3 id="5-energy-savings">5. Energy Savings</h3>
+<p>Lutron devices can help save energy by dimming or turning off lights when rooms are unoccupied, or by controlling shades to reduce heating/cooling costs.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Whether you are upgrading an existing home or building a new one, Lutron smart home solutions provide convenience, efficiency, and style. With simple installation and powerful automation options, you can take control of your environment effortlessly.</p>]]></content><author><name></name></author><category term="smart-home" /><category term="automation" /><summary type="html"><![CDATA[Lutron offers a wide range of smart lighting and shading solutions that can make your home more comfortable, energy-efficient, and convenient. Here’s a quick overview of what you can do with Lutron smart devices:]]></summary></entry></feed>
