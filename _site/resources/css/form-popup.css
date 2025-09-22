@@ -1,0 +1,175 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(210, 247, 210);;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  max-width: 700px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.close-btn {
+  display: block;
+  text-align: right;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: red;
+}
+
+.modal-content h2 {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label[for='name'] {
+  width: 20%;
+  color: rgb(17, 30, 30);
+  font-weight: bold;
+  font-size: .8em;
+}
+
+#name::placeholder {
+  color: rgb(32, 90, 90);
+  text-align: center;
+}
+
+label[for='phone'] {
+  width: 20%;
+  color: rgb(17, 30, 30);
+  font-weight: bold;
+  font-size: .8em;
+}
+
+#phone::placeholder {
+  color: rgb(32, 90, 90);
+  text-align: center;
+}
+
+label[for='email'] {
+  width: 20%;
+  max-width: 120px;
+  color: rgb(17, 30, 30);
+  font-weight: bold;
+  font-size: .8em;
+}
+
+#email::placeholder {
+  color: rgb(32, 90, 90);
+  text-align: center;
+}
+
+label[for='description'] {
+  display: block;
+  text-align: center;
+  width: 70%;
+  margin: 10px auto 10px auto;
+  color: rgb(17, 30, 30);
+  font-weight: bold;
+}
+
+#description::placeholder {
+  color: rgb(32, 90, 90);
+  padding-top: 30%;
+  text-align: center;
+}
+
+.quote-form input[type="text"],
+.quote-form input[type="email"],
+.quote-form input[type="tel"] {
+  display: block;
+  width: 80%;
+  /* all the same width */
+  margin: 10px auto;
+  /* centers horizontally */
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  font-family: inherit;
+  box-sizing: border-box;
+  /* ensures padding doesn’t mess width */
+}
+
+.quote-form textarea {
+  display: block;
+  width: 80%;
+  /* all the same width */
+  min-height: 100px;
+  height: 50%;
+  margin: 10px auto 10px auto;
+  /* centers horizontally */
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  font-family: inherit;
+  box-sizing: border-box;
+  /* ensures padding doesn’t mess width */
+}
+
+.modal-content fieldset {
+  border: none;
+  outline: none;
+
+  display: flex;
+  /* arrange children in a row */
+  justify-content: center;
+  /* center horizontally */
+  align-items: center;
+  /* align vertically */
+  gap: 15px;
+  /* spacing between each option */
+  flex-wrap: wrap;
+  /* allow wrapping on small screens */
+}
+
+.modal-content fieldset legend {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.modal-content input[type="radio"]{
+  
+  accent-color: rgb(189, 231, 21);
+}
+
+.modal-content button[type="submit"] {
+background-color: #75BF44;
+    color: white;
+    border: none;
+    height: 4.5vh;           /* Button height relative to footer (footer is 7vh) */
+    min-width: 10vh;         /* Width also relative to viewport height */
+    font-size: 2vh;          /* Font scales with footer */
+    padding: .5vh .5vh;          /* Horizontal padding in vh */
+    border-radius: 5px;      /* Rounded corners scale with footer */
+    margin: 1vh auto 0 auto;
+    box-shadow: 0.5vh 0.5vh 1.5vh 0.3vh rgba(0, 160, 0, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content input[type="radio"]:active {
+ 
+  box-shadow: 0 0 6px 2px rgb(46, 125, 50, 0.6);
+  background: 0 0 6px 2px rgb(46, 125, 50, 0.6); 
+  border-radius: 50%;  
+}

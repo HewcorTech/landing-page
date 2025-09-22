@@ -1,0 +1,189 @@
+.packages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 2vh;
+    background-color: rgba(31, 46, 46, .8);
+}
+
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 0;
+    gap: 2vw;
+    padding: 2vh 0 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 25vw;
+    height: auto;
+    
+    max-width: 1000px;
+    min-height: 31vh;
+    
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 15px;
+    padding: 2vh 1vw;
+}
+
+.tile h1, 
+.tile h2 {
+
+    padding-bottom: 1vh;
+}
+
+.tile h6 {
+    padding-top: 1vh;
+}
+
+.tile p {
+    padding: 1vh;
+}
+
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale3d(1.3, 1.3, 1.3);
+  color: rgb(53, 53, 241);
+}
+.headlist {
+    margin: 10px 10px;
+}
+
+.content1 h2,
+.content2 h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.content2 {
+    width: 100%;
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+.tile h6 {
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Formatting each tile in the popup */
+#energysaver,
+#secureentry,
+#simpleliving,
+#energyconnected,
+#safeandsound,
+#smartroutines,
+#safeandsound,
+#completeefficiency,
+#totalprotection,
+#onetouch,
+#control4 {
+    margin: 2vh 2vw;
+    padding: 1vh 1vw;
+    background-color: rgba(255, 255, 255, 1);
+     box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 900;
+}
+
+.secondarylist {
+    list-style: none;
+    margin-top: 1vh;
+}
+
+.secondarylist img {
+    max-height: 15vh;
+    height: 10vh;
+    box-shadow: 6px 6px 15px 4px rgba(0, 128, 0, 0.6);
+    margin: 1vh;
+    border-radius: 10px;
+}
+
+.packlist {
+    display: none;
+    list-style: none;
+    position: fixed;
+    justify-content: space-around;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1vw;
+    border-radius: 10px;
+    z-index: 1000;
+    width: 90vw;
+    height: auto;
+    gap: 1vw;
+}
+
+.headlist {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.headlist .img-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comeswith {
+    list-style: none;
+    margin: 5px;
+}
+
+.comeswith li {
+    margin: 1vh;
+}
+
+/* underline package titles */
+.content1 h1 {
+    text-decoration: underline;
+}
+
+.addons1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2vh auto 2vh auto;
+    width: 80%;
+}
+
+.addons1 p {
+    margin: 1vh auto 1vh auto;
+}
+
+.addons1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh auto;
+}

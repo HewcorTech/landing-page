@@ -1,0 +1,36 @@
+.blog h1 {
+      font-family: "Crimson Text", serif;
+  font-weight: 400, bold;
+  font-style: normal;
+     font-size: clamp(.8rem, 1.5em, 2rem);
+      color: #1a1a1a;
+      margin: 2vh auto;
+      padding-top: 2vh;
+       border-bottom: 1px solid #1a1a1a; 
+}
+
+.blog a {
+     font-size: clamp(.4rem, 1.2em, 2rem);
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     color: #1a1a1a;
+     font-weight: bold;
+     text-decoration: none;
+}
+
+.blog a:hover{
+    cursor:default;
+    text-decoration: none;
+}
+.post-date {
+    display: block;
+    text-align: left;
+    margin-top: 1vh;
+}
+
+.blog-post {
+    margin-bottom: 4vh;
+     border-bottom: 1px solid #1a1a1a; 
+   
+}

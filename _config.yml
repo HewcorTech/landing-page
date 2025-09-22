@@ -1,0 +1,9 @@
+title: My Website
+description: My portfolio and blog
+baseurl: "" # leave blank unless your site is in a subfolder
+url: "https://techondemand.ca"
+
+
+theme: minima # built-in Jekyll theme
+plugins:
+  - jekyll-feed

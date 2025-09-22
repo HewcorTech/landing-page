@@ -1,0 +1,436 @@
+ .header-menu li a {
+     text-decoration: none;
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.5rem, 1em, 2rem);
+ }
+
+ .text-content-hero h1 {
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, 1.5em, 2rem);
+     color: white;
+ }
+
+ .text-content-hero h2 {
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.5rem, 2.5vh, 3rem);
+     color: white;
+ }
+
+ /* footer font */
+ .techondemand-footer p {
+     font-size: clamp(.4rem, 0.5vw, 1rem);
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     color: #f1f1f1;
+     font-weight: bold;
+ }
+
+ .techondemand-footer .request-quote button {
+     color: white;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+ /* bullet of services fonts */
+ .services-title h1 {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(1rem, 6vw, 5rem);
+     font-weight: normal
+ }
+
+ .topic-left h2,
+ .topic-right h2 {
+     font-size: clamp(.5rem, 2em, 2.5rem);
+     /* min ~20px, scales, max ~48px */
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     color: #f1f1f1;
+ }
+
+ .topic-left p,
+ .topic-right p {
+     font-size: clamp(.4rem, 1.5em, 2rem);
+     /* min ~16px, scales, max ~24px */
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+ /*google reviews section */
+ .reviews-header h2 {
+     font-size: clamp(1rem, 6vw, 5rem);
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     color: #1a1a1a;
+ }
+
+ .reviews-header h3 {
+     font-size: clamp(.8rem, 4vw, 3rem);
+     /* min ~20px, scales, max ~48px */
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     color: #1a1a1a;
+ }
+
+ .submenu a:link,
+ .submenu a:visited,
+ .submenu a:hover,
+ .submenu a:active {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.5rem, .8rem, 2rem);
+     text-decoration: none;
+     /* optional, removes underline */
+ }
+
+ /*services page*/
+ .homeAutomation h1,
+ .securityANDaccess h1 {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, 4vw, 3rem);
+     font-weight: normal;
+ }
+
+ .networking h1,
+ .entertainment h1,
+ .electrical h1 {
+     color: #1a1a1a;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, 4em, 3rem);
+     font-weight: normal;
+ }
+
+ /* ABOUT US page*/
+ .about-us h1 {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, 2em, 3rem);
+     font-weight: bold;
+ }
+
+ .about-us p {
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.5rem, 1em, 1.5rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+ }
+
+ .about-us li{
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.5rem, 1em, 1.3rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+     font-style: italic;
+ }
+ .team h1 {
+     color: #1a1a1a;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, 4vw, 3rem);
+     font-weight: bold;
+ }
+
+ .employeecard h2 {
+     font-size: clamp(1rem, 1.5em, 3rem);
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     color: #f1f1f1;
+     margin-bottom: 2vh;
+ }
+
+ .employeecard p {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.5rem, 1.2vw, 1.5rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+ }
+
+ /* contact us page */
+
+ .contact-us h1 {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, 4vw, 3rem);
+     font-weight: bold;
+ }
+
+ .contact-us h2 {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.5rem, 3vw, 1.5rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+ }
+
+ .contact-us p {
+     color: #f1f1f1;
+     font-size: clamp(.5rem, 2.5vw, 1.5rem);
+     /* min ~16px, scales, max ~24px */
+     font-weight: normal;
+ }
+
+ a.phonenumber {
+     text-decoration: none;
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, 1vw, 3rem);
+     font-weight: normal;
+ }
+
+ /*Site map*/
+
+ .sitemap h2,
+ .sitemap h4 a {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: clamp(.5rem, .8em, 3rem);
+ }
+
+ .sitemap p a {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: clamp(.4rem, .7em, 2rem);
+ }
+
+ /* packages */
+
+ .tile h1,
+ .tile h2 {
+     color: #1a1a1a;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+     font-size: clamp(.5rem, 1.3em, 2rem);
+ }
+
+ .content2 h1{
+     color: #1a1a1a;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+     font-size: clamp(.5rem, 1.3em, 2rem);
+ }
+
+ .content2 h2 {
+     color: #1a1a1a;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+    font-size: clamp(.5rem, 1.3em, 2rem);
+ }
+
+ .content1 p,
+ .content2 p {
+    font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, 1.1em, 1.8rem);
+ }
+
+ .content1 p {
+     color: #1a1a1a;    
+ }
+
+ .content1 h6 {
+     color: #1a1a1a;
+     font-family: "Crimson Text", serif;
+  font-weight: 400 bold;;
+  font-style: normal;
+     font-style: italic;
+
+     font-size: clamp(.5rem, 1.5vh, 2rem);
+ }
+
+ .packlist h3 {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+     font-size: clamp(.8rem, 1.5em, 3rem);
+ }
+
+ .packlist h4 {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+      font-size: clamp(.8rem, 1.2em, 2.5rem);
+ }
+
+ .packlist h5 {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+ }
+
+ .packlist li{
+     font-size: clamp(.6rem, 1em, 2rem);
+ }
+
+ .packlist li p {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-style: italic;
+ }
+
+ .secondarylist ul {
+     color: #f1f1f1;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, .8vw, 2rem);
+ }
+
+ .addons1 h1 {
+     color: #1a1a1a;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+     font-size: clamp(.5rem, 2em, 3rem);
+ }
+
+ .addons1 h2 {
+     color: #1a1a1a;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+     font-size: clamp(.5rem, 3vh, 5rem);
+ }
+
+ .addons1 p {
+     color: #1a1a1a;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-size: clamp(.8rem, 1.2vw, 3rem);
+ }
+
+ .tile {
+     color: #1a1a1a;
+ }
+
+ .headlist h3,
+ .headlist h4,
+ .headlist li {
+     color: #1a1a1a;
+ }
+
+/* services page */
+
+.first-block h2, 
+.second-block h2 {
+       font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+     font-weight: bold;
+     font-size: clamp(.8rem, 1.2em, 3rem);
+}
+
+.first-block p, 
+.second-block p {
+    font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: clamp(.8rem, 1em, 2rem);
+}
+
+.first-block h2, 
+.first-block p{
+    color: #1a1a1a;
+}
+
+.second-block h2, 
+.second-block p{
+    color: #f1f1f1;
+}
+
+.first-block a {
+    margin-top: 10px;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.second-block a{
+    margin-top: 10px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.spacer-text {
+    margin-top: 10px;
+}
+
+.first-block a:hover {
+   color: rgb(53, 53, 241);
+   cursor: pointer;
+  transform: scale3d(1.3, 1.3, 1.3);
+  text-decoration: none;
+}
+
+.second-block .btn:hover{
+    text-decoration: none;
+    color: rgb(53, 53, 241);
+    cursor: pointer;
+    transform: scale3d(1.3, 1.3, 1.3);
+}
+
+
+
