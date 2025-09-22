@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: custom
 title: "Getting Started with Lutron Smart Home"
 date: 2025-09-22
-permalink: /blog/
+permalink: /blog/lutron-smart-home/
 categories: [smart-home automation, home security]
 ---
 

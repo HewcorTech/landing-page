@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: custom
 title: "Basic Ring Camera Features"
 date: 2025-09-22
-permalink: /blog/
+permalink: /blog/basic-ring-camera-features/
 categories: [home security, home automation]
 ---
 
