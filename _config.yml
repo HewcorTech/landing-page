@@ -1,10 +1,8 @@
-title: My Website
-description: My portfolio and blog
-baseurl: "" # leave blank unless your site is in a subfolder
-markdown: kramdown
+title: TechOnDemand
+description: TechOnDemand delivers smart home and security solutions
+baseurl: ""   # leave blank for root domain
 url: "https://techondemand.ca"
-
-
-theme: minima # built-in Jekyll theme
+theme: minima
 plugins:
   - jekyll-feed
+markdown: kramdown

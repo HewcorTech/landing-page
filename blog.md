@@ -1,7 +1,7 @@
 ---
 layout: custom
 title: Blog
-permalink: /blog/
+permalink: /blog/index.html
 ---
 
 <section class="body-section blog">
