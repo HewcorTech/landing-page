@@ -2,7 +2,8 @@
 layout: post
 title: "Basic Ring Camera Features"
 date: 2025-09-22
-categories: blog security smart-home
+permalink: /blog/
+categories: [home security, home automation]
 ---
 
 Ring cameras are a popular choice for home security because they are easy to install and offer many convenient features. Here's a quick overview of the basics:

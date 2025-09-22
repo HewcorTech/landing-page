@@ -2,7 +2,8 @@
 layout: post
 title: "Getting Started with Lutron Smart Home"
 date: 2025-09-22
-categories: smart-home automation
+permalink: /blog/
+categories: [smart-home automation, home security]
 ---
 
 Lutron offers a wide range of smart lighting and shading solutions that can make your home more comfortable, energy-efficient, and convenient. Here’s a quick overview of what you can do with Lutron smart devices:
