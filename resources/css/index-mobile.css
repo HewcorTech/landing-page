@@ -322,11 +322,7 @@ padding: 2vh 0;
 .text-section {
 padding: 0 1vw;
 }
-   .first-block p, 
-.second-block p {
-  
-font-size: clamp(.4rem, .6em, 1rem) !important;
-}
+
 
 .first-block,
 .second-block {
@@ -385,4 +381,9 @@ width: 100% !important;
      align-items: center;
    }
 
+      .first-block p, 
+.second-block p {
+  
+font-size: clamp(.8rem, .9em, 1rem) !important;
+}
  }
