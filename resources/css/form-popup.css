@@ -13,7 +13,7 @@
 .modal-content {
   display: flex;
   flex-direction: column;
-  background-color: rgb(210, 247, 210);;
+  background-color: rgba(31, 46, 46, 1);
   margin: 10% auto;
   padding: 20px;
   border-radius: 8px;
@@ -27,18 +27,19 @@
   text-align: right;
   font-size: 1.5rem;
   cursor: pointer;
-  color: red;
+  color: #f1f1f1;
 }
 
 .modal-content h2 {
   display: block;
   text-align: center;
   margin-bottom: 20px;
+   color: #f1f1f1;
 }
 
 label[for='name'] {
   width: 20%;
-  color: rgb(17, 30, 30);
+   color: #f1f1f1;
   font-weight: bold;
   font-size: .8em;
 }
@@ -50,7 +51,7 @@ label[for='name'] {
 
 label[for='phone'] {
   width: 20%;
-  color: rgb(17, 30, 30);
+   color: #f1f1f1;
   font-weight: bold;
   font-size: .8em;
 }
@@ -63,7 +64,7 @@ label[for='phone'] {
 label[for='email'] {
   width: 20%;
   max-width: 120px;
-  color: rgb(17, 30, 30);
+   color: #f1f1f1;
   font-weight: bold;
   font-size: .8em;
 }
@@ -78,7 +79,7 @@ label[for='description'] {
   text-align: center;
   width: 70%;
   margin: 10px auto 10px auto;
-  color: rgb(17, 30, 30);
+   color: #f1f1f1;
   font-weight: bold;
 }
 
@@ -135,6 +136,7 @@ label[for='description'] {
   gap: 15px;
   /* spacing between each option */
   flex-wrap: wrap;
+   color: #f1f1f1;
   /* allow wrapping on small screens */
 }
 
@@ -143,10 +145,11 @@ label[for='description'] {
   padding-top: 15px;
   padding-bottom: 5px;
   font-weight: bold;
+   color: #f1f1f1;
 }
 
 .modal-content input[type="radio"]{
-  
+   color: #f1f1f1;
   accent-color: rgb(189, 231, 21);
 }
 
