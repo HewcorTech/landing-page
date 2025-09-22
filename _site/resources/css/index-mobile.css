@@ -339,6 +339,13 @@ width: 100% !important;
      margin-top: 5vh;
    }
 
+   .body-section {
+   margin-top: 3vh;
+   }
+   .contact-us{
+    padding-top: 1vh !important;
+   }
+
  }
 
  @media (max-width: 1080px) {
