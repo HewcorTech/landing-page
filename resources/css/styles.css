@@ -49,7 +49,7 @@ body {
    align-items: center;
    justify-content: space-between;
    /* space logo, line, menu evenly */
-   height: 18vh;
+   height: 20vh;
    /* fixed height */
    padding: 0;
    /* remove extra padding */
@@ -75,9 +75,8 @@ body {
 }
 
 .header .logo img {
-   width: 350px;
-
-   height: 8vh;
+   width: 15vw;
+   
    /* scales with header */
    margin-bottom: 2%;
 }
@@ -87,7 +86,7 @@ body {
    outline: none;
    background-color:#75BF44;
    width: 70vw;
-   height: 2px;
+   height: .2vh;
    margin: 0 auto;
 }
 

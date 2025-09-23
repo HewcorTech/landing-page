@@ -1,6 +1,15 @@
  /* formatting for mobile */
 
  @media (max-width: 768px) {
+
+  .header {
+    height: 18vh !important;
+  }
+
+  .header img {
+    height: 8vh;
+    width: auto !important;
+  }
    .header-menu li {
      position: relative;
      /* needed so submenu positions relative to parent */
