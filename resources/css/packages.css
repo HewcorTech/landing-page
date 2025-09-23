@@ -43,6 +43,12 @@
     padding-bottom: 1vh;
 }
 
+.tile img {
+    width: 50%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
 .tile h6 {
     padding-top: 1vh;
 }
