@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /resources/
+Allow: /
+Sitemap: https://www.techondemand.ca/sitemap.xml
