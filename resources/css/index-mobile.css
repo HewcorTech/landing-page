@@ -151,7 +151,7 @@
      /* Button height relative to footer (footer is 7vh) */
      width: 8vh;
      /* Width also relative to viewport height */
-     font-size: 1.5vh;
+     font-size: .65em;
      /* Font scales with footer */
      padding: 1.5vh .5vw;
      /* Horizontal padding in vh */
