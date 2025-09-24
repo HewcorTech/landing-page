@@ -75,7 +75,7 @@ body {
 }
 
 .header .logo img {
-   width: 15vw;
+   height: 10vh;
    
    /* scales with header */
    margin-bottom: 2%;
