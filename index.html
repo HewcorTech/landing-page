@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name='description' content="Expert Calgary electrical, IT, low voltage, automation, and AV services. Efficient, reliable, and tech-forward solutions you can count on.">
+  <meta name='description'
+    content="Expert Calgary electrical, IT, low voltage, automation, and AV services. Efficient, reliable, and tech-forward solutions you can count on.">
   <link rel="canonical" href="https://www.techondemand.ca/">
   <link rel="stylesheet" href="resources/css/styles.css">
   <link rel='stylesheet' href="resources/css/index-main-style.css">
@@ -21,14 +22,15 @@
     rel="stylesheet">
 
   <!-- Open Graph Meta Tags -->
-<meta property="og:image" content="https://www.techondemand.ca/resources/images/social-images/homepage.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:url" content="https://www.techondemand.ca/?v=2">
-<meta property="og:type" content="website">
-<meta property="og:title" content="TechOnDemand Calgary | Electrical, IT & Automation Solutions">
-<meta property="og:description" content="Expert residential & commercial services in electrical, IT, low voltage, automation, and AV systems. Reliable, efficient, and tech-forward service you can trust.">
-<meta property="fb:app_id" content="1915097952390703" />
+  <meta property="og:image" content="https://www.techondemand.ca/resources/images/social-images/homepage.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://www.techondemand.ca/?v=2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TechOnDemand Calgary | Electrical, IT & Automation Solutions">
+  <meta property="og:description"
+    content="Expert residential & commercial services in electrical, IT, low voltage, automation, and AV systems. Reliable, efficient, and tech-forward service you can trust.">
+  <meta property="fb:app_id" content="1915097952390703" />
   <title>TechOnDemand Calgary | Smarter Security, Automation & AV for Homes & Businesses</title>
 </head>
 
@@ -262,42 +264,57 @@
         <a href='https://x.com/techondemadYYC'><img id="x-logo" src="resources/images/x-logo/logo-white.png"
             alt="Instagram Icon"></a>
         <a href="https://www.instagram.com/yyctechondemand?igsh=NXVjd2ZrNnZxc2wy"><img id='insta-logo'
-            src="resources/images/IG_brand_asset_pack_2023/01 Static Glyph/02 White Glyph/Instagram_Glyph_White.png" alt="insta logo"></a>
+            src="resources/images/IG_brand_asset_pack_2023/01 Static Glyph/02 White Glyph/Instagram_Glyph_White.png"
+            alt="insta logo"></a>
       </div>
     </div>
 
     <!-- pop-up-form.html -->
+    <button id="openFormBtn">Book Now</button>
+
+    <!-- Popup modal -->
     <div id="popupForm" class="modal">
-
       <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <form class="quote-form" autocomplete="on">
-          <h2>Request a Quote</h2>
+        <span class="close">&times;</span>
 
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-
-          <label for="phone">Phone:</label>
-          <input type="tel" id="phone" name="phone" required>
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-
-          <label for="description">What can we help you with?</label>
-          <textarea id="description" name="description" required></textarea>
-
-          <fieldset>
-            <legend>Preferred contact method:</legend>
-            <label><input type="radio" name="contact-method" value="phone"> Phone</label>
-            <label><input type="radio" name="contact-method" value="sms"> SMS/Text</label>
-            <label><input type="radio" name="contact-method" value="email" checked> Email</label>
-          </fieldset>
-
-          <button type="submit">Submit</button>
-        </form>
+        <!-- Housecall Pro embed -->
+        <script async
+          src="https://online-booking.housecallpro.com/script.js?token=be6832d18f75453b963094f7304f7c98&orgName=Techs-on-Demand-A-Division-of-Hewcor-Technologies-Inc"></script>
+        <!--Start of Housecallpro Lead Capture code-->
+        <script async
+          src="https://online-booking.housecallpro.com/script.js?token=be6832d18f75453b963094f7304f7c98&orgName=Tech-on-Demand-A-Division-of-Hewcor-Technologies-Inc"> </script>
+        <iframe style="border: none; width: auto; height: 800px;" id="hcp-lead-iframe"
+          src="https://book.housecallpro.com/lead-form/Tech-on-Demand-A-Division-of-Hewcor-Technologies-Inc/be6832d18f75453b963094f7304f7c98"></iframe>
+        <!--End of Housecallpro Lead Capture code-->
       </div>
     </div>
 
+    <style>
+
+    </style>
+
+    <script>
+      // Open modal
+      const modal = document.getElementById("popupForm");
+      const openBtn = document.getElementById("openFormBtn");
+      const closeBtn = document.querySelector(".close");
+
+      openBtn.onclick = () => {
+        modal.style.display = "flex";
+      }
+
+      // Close modal when clicking the X
+      closeBtn.onclick = () => {
+        modal.style.display = "none";
+      }
+
+      // Close modal if user clicks outside the modal content
+      window.onclick = (event) => {
+        if (event.target === modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
   </section>
 
 
