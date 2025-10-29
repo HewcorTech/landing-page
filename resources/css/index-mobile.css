@@ -393,6 +393,6 @@ width: 100% !important;
       .first-block p, 
 .second-block p {
   
-font-size: clamp(.8rem, .9em, 1rem) !important;
+font-size: 1vh !important;
 }
  }
