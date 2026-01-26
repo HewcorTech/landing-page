@@ -22,7 +22,7 @@ align-items: center;width:50%; height:auto; text-align:justify; background: line
 
 @media (max-width: 760px) {
 
-#contents h1{font-size:29px; padding:0; margin:1.2% auto;}
+#contents h1{font-size:29px; padding:0; padding-top:5vh; margin:1.2% auto;}
 
 #rowone, #rowthree, #rowfive {display:flex; flex-direction:column-reverse; margin:0; width:100%;}
 .text-block, .text-blockalt {display: flex; flex-direction: column; justify-content: center; padding:4%; line-height: 2; width:100%; box-sizing: border-box; margin-bottom:2%;}
