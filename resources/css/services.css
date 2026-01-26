@@ -1,59 +1,40 @@
+body{background: linear-gradient(rgba(50, 50, 50, 0.89), rgba(22, 22, 22, 0.80)), url('../images/background.jpg'); background-repeat:no-repeat; background-attachment:fixed; background-position:center; background-size:cover; }
+
+#contents h1{ display:inline-block; text-align:center; margin:auto; width:100%; color:#fff; font-size:39px; padding: 1.4%; padding-top:6%; padding-bottom:3%; 
+text-shadow: #000 0 3px 5px; border-bottom: 7px solid transparent; border-image: linear-gradient(270deg, #fff, #222); border-image-slice: 1;}
+
+#rowone, #rowtwo, #rowthree, #rowfour, #rowfive{ display:flex; flex-direction:row; margin:auto; height:auto; box-sizing: border-box; width:100%;}
+.text-block { width:50%; height:auto; text-align:justify; background: linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.85)), url(../images/solar-field.jpg); background-position:bottom; background-repeat: none; background-size:cover; color:#000; padding:2%; display: flex; flex-direction: column; justify-content: center;
+align-items: center;}
+.text-blockalt {display: flex; flex-direction: column; justify-content: center;
+align-items: center;width:50%; height:auto; text-align:justify; background: linear-gradient(rgba(50, 50, 50, 0.78), rgba(50, 50, 50, 0.85)), url(../images/solar-field.jpg); background-position:bottom; background-repeat: none; background-size:cover; color:#fff; padding:2%;}
+.picture-block { width:54.33%; height:auto; overflow:hidden; padding:0; margin:0;}
+.picture-block img {display: block; width:100%; height:100%; padding:0; margin:0; overflow:hidden; object-fit: cover; }
+
+.openFormBtn { background:none; border:none; box-shadow:none; transform:none; transition:none; padding:0; margin:0; border-radius:120px; width:30%; min-width:30%}
+.openFormBtn img {margin:auto; border-radius:120px; transition: transform 0.4s, opacity 0.4s; cursor: pointer; width:100%; box-shadow:#000 0 6.3px 7px; }
+.openFormBtn:hover { transform: scale(1.0) ; transition:ease-in 0.10s; }
+
+.text-block a, .text-blockalt a {display:flex; justify-content:center; align-content:center; padding:0; margin:0; border-radius:120px; width:30%; min-width:3025%;}
+.text-block img, .text-blockalt img { margin:auto; border-radius:120px; transition: transform 0.4s, opacity 0.4s; cursor: pointer; width:100%; box-shadow:#000 0 6.3px 7px; }
+.text-block img:hover, .text-blockalt img:hover { transform: scale(1.16) ; transition:ease-in 0.10s; }
 
 
-.service-tile, 
-.service-tile2 {
-  height: 30vh;       /* matches children */
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;   /* keep things inside */
-}
+@media (max-width: 760px) {
 
-.first-block .btn, 
-.second-block .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#contents h1{font-size:29px; padding:0; margin:1.2% auto;}
 
-}
+#rowone, #rowthree, #rowfive {display:flex; flex-direction:column-reverse; margin:0; width:100%;}
+.text-block, .text-blockalt {display: flex; flex-direction: column; justify-content: center; padding:4%; line-height: 2; width:100%; box-sizing: border-box; margin-bottom:2%;}
 
+#rowtwo, #rowfour {display:flex; flex-direction:column; margin:0; height:auto; box-sizing: border-box; width:100%;}
 
+.picture-block {height:auto; padding:0; margin-bottom:2%; width:100%;}
+.picture-block img {height:100%; padding:0; margin:0; overflow:hidden; object-fit: cover; width:100%;}
 
-.first-block,
-.second-block {
-  width: 50%;
-  height: 100%;       /* inherit parent height */
-}
+/* button formatting for Mobile Service Page*/
+.openFormBtn {padding:5%; font-size:2vh;}	
+		
 
-.row {
-    box-sizing: border-box;
-    width: 100%;
-
-    display: flex;
-   
-}
-
-.row img {
-  width: 100%;
-  height: 100%;      /* force it to match parent */
-  object-fit: cover; /* crop edges, no vertical overflow */
-  display: block;
-
-}
-
-.color2 {
-     background-color: rgba(31, 46, 46, .8);
-}
-
-.text-section {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.text-section h2 {
-    margin-bottom: 1vh;
+.text-block a, .text-blockalt a {width:50%;}
 }
