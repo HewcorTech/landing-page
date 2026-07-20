@@ -1,0 +1,66 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const popup = document.getElementByID("openForm");
+  const modalContent = popup.querySelector(".modal-content");
+
+  // Save the original form HTML once (for reset later)
+  const originalContent = modalContent.innerHTML;
+
+  // Hide popup on page load
+  popup.style.display = "none";
+
+  // Function to bind the close button event
+  function bindCloseButton() {
+    const closeBtn = popup.querySelector(".close-btn");
+    if (closeBtn) {
+      closeBtn.addEventListener("click", () => {
+        popup.style.display = "none";
+        modalContent.innerHTML = originalContent;
+        bindFormHandler(); // rebind form submit
+        bindCloseButton(); // rebind close button
+      });
+    }
+  }
+
+  // Function to bind the form submit event
+  function bindFormHandler() {
+    const form = popup.querySelector(".quote-form");
+    if (!form) return;
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const data = new URLSearchParams(new FormData(form));
+
+      // Show popup immediately
+      popup.style.display = "block";
+
+      // Send data to Google Sheet (fire and forget)
+      fetch("https://script.google.com/macros/s/AKfycbyEWwu96RYDrhXZ2CXrUYFMCJW3vfjrSPOCxd5I4so1RyRbvxRohRkfW4Oxl-fZ2iZGYg/exec", {
+        method: "POST",
+        body: data,
+        headers: { "Content-Type": "application/x-www-form-urlencoded" }
+      });
+
+      // Clear the form
+      form.reset();
+
+      // Show submitted message
+      modalContent.innerHTML = `
+        <h2>Submitted!</h2>
+        <p>Thanks, we will get back to you soon.</p>
+      `;
+
+      // Hide popup and restore form after 2 seconds
+      setTimeout(() => {
+        popup.style.display = "none";
+        modalContent.innerHTML = originalContent;
+        bindFormHandler(); // rebind form
+        bindCloseButton(); // rebind close button
+      }, 2000);
+    });
+  }
+
+  // Initial bindings
+  bindFormHandler();
+  bindCloseButton();
+});

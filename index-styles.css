@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+#lure { width:100%; padding:0; margin:auto; margin-top:3%; margin-bottom:5%; background-color: #64a70c; background-image: url(images/lures/indexlurebanner.png); 
+background-repeat:no-repeat; background-position: right 0px top 0px; background-attachment:fixed; background-size: auto 100%;}
+
+#lure h1 {font-size:3.1vw;}
+
+.service-index {display: flex; flex-direction: column; width: 100%; padding: 1%; margin: 0 auto; box-sizing: border-box; gap: 2rem;}
+
+.section { display: flex; flex-direction:column; justify-content: start; background-color: rgba(31, 46, 46, .8); width: 100%; border-radius:45px; text-shadow:#000 0 1px 4px; 
+padding:1%; margin:0;}
+
+#cablebg {background: linear-gradient(rgba(122, 122, 122, 0.4), rgba(122, 122, 122, 0.85)), url(images/indexservicelist/pexels-cookiecutter-19166565.jpg); background-position:left; background-repeat: no-repeat; background-size:cover; border-radius:45px; width:80%; padding:0; margin:0;}
+#netbg {background: linear-gradient(rgba(122, 122, 122, 0.4), rgba(122, 122, 122, 0.85)), url(images/indexservicelist/pexels-cdc-library-3992926.jpg); background-position:left; background-repeat: no-repeat; background-size:cover; border-radius:45px; width:80%; padding:0; margin:0;}
+#workbg {background: linear-gradient(rgba(122, 122, 122, 0.4), rgba(122, 122, 122, 0.85)), url(images/indexservicelist/pexels-sejio402-round.jpg); background-position:left; background-repeat: no-repeat; background-size:cover; border-radius:45px; width:80%; padding:0; margin:0;}
+#autobg  {background: linear-gradient(rgba(122, 122, 122, 0.4), rgba(122, 122, 122, 0.85)), url(images/indexservicelist/pexels-pavel-danilyuk-8761313.jpg); background-position:left; background-repeat: no-repeat; background-size:cover; border-radius:45px; width:80%; padding:0; margin:0;}
+#elecbg  {background: linear-gradient(rgba(122, 122, 122, 0.4), rgba(122, 122, 122, 0.85)), url(images/indexservicelist/pexels-shameer-vayalakkad-hydrose-2602409-21812143.jpg); background-position:left; background-repeat: no-repeat; background-size:cover; border-radius:45px; width:80%; padding:0; margin:0;}
+
+.section label {font-size: 3.8vh; color:#fff; text-align:left; width:76%; padding:1.35%; transition: color .18s ease-in-out, text-shadow .18s ease-in-out; margin:0; background: linear-gradient(to right, rgba(0, 0, 0, 0.5), 88%, rgba(0, 0, 0, 0)); backdrop-filter: blur(2px); border-radius:100px;}
+.section label:hover {color:#8CFF24; text-shadow: 1px 1px 7px #000; transition: all .18s;}
+.droparrow {cursor: pointer;}
+.dropdown {display: flex; flex-direction: column;  align-items:stretch; justify-content:flex-start; gap: 3rem;  height: 0; overflow: hidden; opacity: 0;
+transition: height 0.4s ease, opacity 0.4s ease; overflow: hidden; will-change: height, opacity;}
+.text-content p {text-align:justify; text-justify: inter-character; color:#fff; font-size:3.1vh; white-space:pre-line; width:96%; text-align:justify; word-break:keep-all; }
+.text-content a {text-decoration:none; font-weight:600;}
+.text-content a p:hover { transition: all .1s; color:#8CFF24; text-decoration:underline;}
+.text-content h2 {color:#fff; font-size:4.2vh; white-space:pre-line; border-bottom:2px solid #fff; margin-left:2.1%; width:90%;}
+.wrapper img {width:25%; aspect-ratio: 1/1; border-radius:220px; margin:0 auto; padding:0; line-height:0; border:14px solid rgba(0,0,0,0.28);}
+#cable:checked ~ .dropdown {display: flex;}
+.wrapper { display: inline-flex; align-items: center; justify-content: center; position:relative;}
+
+#cable, #networking, #workstation, #automation, #electrical, #office { display: none; }
+#cable:checked ~ .dropdown, #networking:checked ~ .dropdown, #workstation:checked ~ .dropdown, #automation:checked ~ .dropdown, #electrical:checked ~ .dropdown {display: flex;}
+
+.carousel .index-header-title { background:none; }
+.carousel { overflow: hidden; width: 100%; padding: 1% 0; margin:auto;  margin-top:4%; background: linear-gradient(rgba(140, 140, 140, 0.90), rgba(230, 230, 230, 0.80));}
+.carousel h2 {color:#fff; font-size:2.6vw; text-align:center; margin:auto; padding:0; margin-bottom:1.5%; text-shadow:#000 0 0 3.3px;  border-bottom: 3.6px solid; border-image: linear-gradient(to left, transparent, transparent 8%,rgba(255,255,255,1)); border-image-slice: 1; width:80%;}
+.carousel-track {display: flex; width: max-content; animation: scroll 20s linear infinite; gap: 2vw;}
+.carousel-track img { width: 16vw; max-width: 23vw; object-fit: contain; flex-shrink: 0;}
+/* Animation */
+@keyframes scroll {
+from {transform: translateX(0);}
+to {transform: translateX(-50%);}
+}
+
+
+#reviews { display: flex; flex-direction: column; justify-content: center; align-items: center; padding-top: 2%; margin-top: 5vw;
+background: linear-gradient(rgba(50, 50, 50, 0.7), rgba(100, 100, 100, 0.5)), url(images/indexservicelist/leafs.jpg); background-position:center; background-repeat: none; background-size:cover; box-shadow:#000 0 3px 12px;}
+#reviews h3 {padding-bottom: 3vh; word-break:loose; text-align:center; color:#fff; text-shadow:#333 0 2px 2px; font-size:40px;}
+
+@media (max-width: 760px) {
+	
+#lure  {padding: 13% 0 13% 0;}	
+#lure h1 {text-align:center; font-size:2.45rem; -webkit-text-stroke: 1px #000; width:97%; margin:auto;}
+#lure p {text-align:justify; text-justify: inter-character; font-size:1.35rem; text-shadow: 0 1px 6px rgba(0, 0, 0, 1), 0 0 7px rgba(0, 0, 0, 0.7); width:95%; margin:auto;}
+.blur {margin:0; padding:0; width:100%; -webkit-mask-image: linear-gradient(to right, black 100%, transparent 0%);}	
+
+.tagline {margin-bottom:15%;}
+
+.service-index {padding:0; width:100%; gap:0;}
+.section {border-radius:22px;}
+.section label {font-size: 1.80rem; text-align:center; width:95%; padding:1%; border-radius:22px; margin:auto; transition:none;}
+.section label:hover {transition: none;}
+
+.dropdown {display: flex; flex-direction: column; align-items:stretch; justify-content:flex-start; height: 0; overflow: hidden; opacity: 0;
+transition: height 0.4s ease, opacity 0.4s ease; overflow: hidden; will-change: height, opacity; }
+.text-content p {padding-left:1%; font-size:1.25rem; line-height:38px; word-break:loose; white-space:pre-line;}
+.text-content h2 {color:#fff; font-size:4vh; white-space:pre-line; border-bottom:2px solid #fff; margin-left:2.1%; width:90%;}
+.wrapper img {display:none;}
+.text-content a p{text-align:center; margin:auto; text-decoration:underline; font-weight:600; color:#fff; z-index:3;}
+.text-content a p:hover { transition:none;}
+
+#cablebg, #netbg, #workbg, #autobg, #elecbg {margin:auto; margin-bottom:2%; margin-top:2%; width:90%; border-radius:22px; background-size:auto; background-position:center;}
+.carousel {display:none;}
+
+#reviews {margin-top:20%; margin-bottom:20%;}
+#reviews h3{font-size:2rem; padding:0; margin:2.5%;}
+
+	
+}

@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+#lure { width:100%; padding:0; margin:auto; margin-top:3%; margin-bottom:5%; background-color: #64a70c; background-image: url(images/lures/lurebanner.png); background-attachment:fixed; }
+
+#service-section { display:flex; flex-direction:column; background-color: rgba(22, 60, 2, 0.7);  backdrop-filter: blur(4px); width:100%; margin:auto; padding:3% 0 3% 0;}
+
+.item-square { display:flex; flex-direction: column;  aspect-ratio: 3.5 / 1; flex: 0 0 0%; width:90%; margin:auto; border:6px solid #fff; border-radius:20px; 
+box-shadow:#121 0px 4px 13px; overflow:hidden; cursor: pointer; transition: transform 0.3s, box-shadow .2s ease-in-out; margin-bottom:5.5%; color:#fff; position: relative; 
+padding:0;}
+.sqr-title { position:absolute; color:#fff; font-weight:600; background-color:rgba(0, 0, 0, 0.75); padding:2.5%; backdrop-filter: blur(3.4px); text-shadow:#000 0 0 4px; margin:auto;
+width:100%; z-index:1; pointer-events:none;}
+.item-square h2 { font-size:2rem; margin:auto; margin-top:5%; width:100%; text-align:center;}
+.item-square h3 {font-size:1.35rem; width:100%; text-decoration:underline; margin:0 auto; padding:0; width:93%;}
+.item-square ul { color:#fff; width:93%; text-align:justify; margin:auto; padding:1%;}
+.item-square li { font-size:1.31rem; margin:0; list-style:none; }
+.item-square:hover { border:6px solid #0F0; box-shadow:#0C0 0 0px 30px; transition: all 0.4s;}
+.item-square.active {border:6px solid #A5FF8A; transform:scale(0.98,0.98); box-shadow:#A5FF8A 0 0px 30px; aspect-ratio:auto; min-height:800px;}
+.item-square img { display:block; width:100%; height:100%; object-fit: cover; position:absolute; inset:0; z-index:0; }
+.item-square.active {aspect-ratio: auto; min-height: 800px; }
+.overlay { position: relative; z-index: 2; display: flex; flex-direction: column; justify-content: flex-start; align-items: stretch; width:100%; position: relative; padding:0; 
+margin:0 auto; opacity: 0; pointer-events: none; max-height: 0; overflow: hidden; transition: max-height .4s ease, opacity .3s ease; transition: transform .3s ease, opacity .3s ease; 
+ backdrop-filter: blur(5px); background: rgba(0, 0, 0, 0.85); color: #fff;  white-space:pre-line;} 
+.overlay.active {transform: translateY(0); opacity: 1; max-height: 2000px; flex: 1;}
+
+#service-link { font-weight:600; text-decoration:none; transition:all .3s ease; color:#000;}
+#service-link:hover {transition:transform .5s ease-in-out; color:#00FF1D;}
+
+#contact-choice { display:flex; flex-direction:row; justify-content:space-around; width:50%; margin:auto; padding:0;}
+
+#openFormBtn { display:block; padding:0; margin:auto; width:10%; background: none; border: none; outline: none; border-radius:100px; transition: all 0.3s ease; flex:1; }
+#openFormBtn:hover {transition: transform 0.3s ease-in-out; transform: scale(1.07); box-shadow:#222 0 5px 9px;}
+#openFormBtn img { display:block; width:100%;}
+
+.phonenumber img {display:block; width:40%; margin:auto; transition: transform 0.2s ease, background-color 0.2s ease; cursor: pointer; flex:2;}
+.phonenumber img:hover {transform:scale(1.1);}
+.phonenumber img:active {transform: scale(0.98);}
+
+@media (max-width: 760px) {
+#lure h1 {text-align:center; font-size:2.45rem; -webkit-text-stroke: 1px #000; width:97%; margin:auto;}
+#lure p {text-align:justify; text-justify: inter-character; font-size:1.35rem; text-shadow:#000 0 1px 6px; width:95%; margin:auto;}	
+
+#service-section { padding-top:13%; margin-top:13%;}
+
+
+.item-square { width:92%; transition:none; margin-bottom:10%;}
+.sqr-title {font-weight:600; background-color:rgba(0, 0, 0, 0.6); padding:2.5%; backdrop-filter: blur(3px); text-shadow:#000 0 0 6px; z-index:1;}
+.item-square h2 { font-size:1.6rem; margin-top:4%; margin-bottom:8%; width:100%;}
+.item-square h3 {font-size:2rem; margin:0 auto; width:100%; text-align:center;}
+.item-square ul { text-align:justify; text-justify: inter-character; line-height: 36px;}
+.item-square li { font-size:1.35rem; }
+.item-square:hover {transition: none;}
+
+.overlay {backdrop-filter: blur(4px); } 	
+	
+	
+.service-link { font-weight:600; text-decoration:underline; transition:none; color:#000;}
+.service-link:hover {transition:none; color:#000;}
+
+#contact-choice { display:flex; flex-direction:column; justify-content:center; width:100%; margin:auto; padding:0;}
+
+#openFormBtn { display:block; padding:0; margin:auto; width:72%; background: none; border: none; outline: none; border-radius:100px; transition:none; flex:1; margin-bottom:10%;}
+#openFormBtn:hover {transition:none; transform:none; box-shadow:#222 0 5px 9px;}
+#openFormBtn img { display:block; width:100%;}
+
+}

@@ -1,8 +1,0 @@
-title: TechOnDemand
-description: TechOnDemand delivers smart home and security solutions
-baseurl: ""   # leave blank for root domain
-url: "https://techondemand.ca"
-theme: minima
-plugins:
-  - jekyll-feed
-markdown: kramdown
